@@ -1,7 +1,7 @@
-// import { Panier } from "../pages/Produits/Produit.js";
-// import { SupprimerPanier } from "./Produits/Produit.js";
-// import { EnleverProduit } from "./Produits/Produit.js";
-// import { ProduitPanier } from "./Produits/Produit.js";
+// import { Panier } from "../pages/Plats/Produit.js";
+// import { SupprimerPanier } from "./Plats/Produit.js";
+// import { EnleverProduit } from "./Plats/Produit.js";
+// import { ProduitPanier } from "./Plats/Produit.js";
 
 // Panier();
 

@@ -12,7 +12,7 @@ import { quantiteTotalePanier, recupPanier } from "../pages/Panier";
  * @returns {void}
  */
 export const Nav = (element) => {
-	const appName = "Tout pour les Fauconniers";
+	const appName = "CroqueMinute";
 	const quantite = quantiteTotalePanier();
 	const elementQuantite = document.getElementById("cart-count");
 	if (elementQuantite) {
@@ -25,7 +25,7 @@ export const Nav = (element) => {
 	const links = [
 		{ href: "/", text: "Accueil" },
 		{ href: "/contact", text: "Contact" },
-		{ href: "/produits", text: "Produits" },
+		{ href: "/plats", text: "Plats" },
 		{ href: "/panier", text: "Panier" },
 	];
 
