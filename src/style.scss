@@ -1,0 +1,73 @@
+@import "bootstrap/scss/bootstrap";
+
+// Général
+
+body {
+	background-color: rgb(31, 31, 31);
+	color: white;
+}
+
+// Navigation
+
+nav {
+	background-color: rgb(31, 31, 31);
+	font-size: 1.2em;
+}
+
+// Page d'accueil
+.Accueil {
+	text-align: center;
+}
+
+// Présentation produit
+#affiche {
+	width: 65%;
+}
+
+// Carrousel
+
+// .carousel-item {
+// 	margin-left: 20vw;
+// }
+.carousel-inner img {
+	height: 40em !important;
+}
+
+.prix {
+	font-weight: bold;
+}
+.carte {
+	text-align: center;
+}
+
+.imgCard {
+	height: 15em !important;
+}
+
+// ProduitRow
+
+.rowcarte {
+	text-align: justify;
+}
+
+// Produit
+
+#affiche {
+	max-width: 630px;
+}
+
+// Panier
+
+.Panier {
+	text-align: justify;
+}
+
+#Total {
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.4em;
+}
+
+#Total span {
+	color: red;
+}
