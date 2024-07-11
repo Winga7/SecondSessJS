@@ -31,7 +31,8 @@
 		"id": 5,
 		"nom": "Oasis",
 		"photo": "./img/restaurants/",
-		"description": "Oasis est un restaurant marocain. Il propose des tajines, des couscous et autres spécialités marocaines."
+		"description": "Oasis est un restaurant marocain. Il propose des tajines, des couscous et autres spécialités marocaines.",
+		"catégorie": "Oriental"
 	},
 	{
 		"id": 6,
