@@ -1,4 +1,4 @@
-import Restaurants from "../../storage/restaurant.json";
+import Restaurants from "../../storage/restaurants.json";
 import { CategorieBadge } from "./Partials/CategorieBadge";
 
 /**
