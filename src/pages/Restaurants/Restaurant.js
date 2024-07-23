@@ -2,7 +2,7 @@ import Restaurants from "../../storage/restaurants.json";
 import { CategorieBadge } from "./Partials/CategorieBadge";
 
 /**
- * Page des détails d'un restaurant
+ * Page des détails d'un restaurant.
  *
  * @param {HTMLElement} element
  * @returns {void}
