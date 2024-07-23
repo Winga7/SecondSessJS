@@ -4,15 +4,15 @@ import "remixicon/fonts/remixicon.css";
 import { app } from "./framework/app";
 import { Contact } from "./pages/Contact";
 import { Home } from "./pages/Home";
-import { Plats } from "./pages/Plats/Plats";
-import { Plat } from "./pages/Plats/Plat";
+import { Restaurants } from "./pages/Restaurants/Restaurants";
+import { Restaurant } from "./pages/Restaurants/Restaurant";
 import { Panier } from "./pages/Panier";
 
 const routes = {
 	"/": Home,
 	"/contact": Contact,
-	"/plat": Plat,
-	"/plats": Plats,
+	"/restaurant": Restaurant,
+	"/restaurants": Restaurants,
 	"/panier": Panier,
 };
 

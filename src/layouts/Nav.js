@@ -25,7 +25,7 @@ export const Nav = (element) => {
 	const links = [
 		{ href: "/", text: "Accueil" },
 		{ href: "/contact", text: "Contact" },
-		{ href: "/plats", text: "Plats" },
+		{ href: "/restaurants", text: "Restaurants" },
 		{ href: "/panier", text: "Panier" },
 	];
 
