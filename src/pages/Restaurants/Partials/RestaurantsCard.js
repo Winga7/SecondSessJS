@@ -14,17 +14,17 @@ import { CategorieBadge } from "./CategorieBadge";
  * @param {Restaurant} restaurant
  * @returns {string} HTML string
  */
-export const RestaurantCard = (restaurant) => {
+export const RestaurantsCard = (restaurant) => {
 	return `
     <div class="col p-2">
-      <a class="card restaurant-link" href="/restaurant?id=${restaurant.id}">
+      <a class="card restaurant-link" href="/restaurant?id=${restaurants.id}">
         <div class="card-body">
-          <h5 class="card-title carte">${restaurant.name}</h5>
+          <h5 class="card-title carte">${restaurants.name}</h5>
           <figure>
-          <img src="${restaurant.photo}" class="card-img-top imgCard" alt="${restaurant.name}">
+          <img src="${restaurants.photo}" class="card-img-top imgCard" alt="${restaurants.name}">
           </figure>
-          <p class="card-im carte prix">${restaurant.prix} €</p>
-          ${CategorieBadge(restaurant.catégorie)}
+          <p class="card-im carte prix">${restaurants.prix} €</p>
+          ${CategorieBadge(restaurants.catégorie)}
         </div>
       </a>
     </div>
