@@ -1,17 +1,17 @@
 import { CardsList } from "../../components/CardsList";
 import { DataTable } from "../../components/DataTable";
-import plats from "../../storage/plats.json";
-import { ProduitCard } from "./Partials/PlatsCard";
-import { ProduitRow } from "./Partials/PlatsRow";
+import restaurants from "../../storage/restaurants.json";
+import { RestaurantsCard } from "./Partials/RestaurantsCard";
+import { RestaurantsRow } from "./Partials/RestaurantsRow";
 
 /**
- * Page de la liste des plats
+ * Page de la liste des restaurants
  * 2 modes d'affichage : grille et tableau
  *
  * @param {HTMLElement} element
  * @returns {void}
  */
-export const Plats = (element) => {
+export const Restaurants = (element) => {
 	// on récupère le mode d'affichage depuis l'URL
 	const url = new URL(window.location.href);
 	const modeFromQueryString = url.searchParams.get("mode");
@@ -19,7 +19,7 @@ export const Plats = (element) => {
 
 	element.innerHTML = `
     <div class="d-flex justify-content-between">
-      <h1>Plats</h1>
+      <h1>Restaurants</h1>
       <div>
         <button id="grid-mode-btn" class="btn btn-sm btn-secondary mr-3">
           <i class="ri-layout-grid-line"></i>
@@ -29,17 +29,17 @@ export const Plats = (element) => {
         </button>
       </div>
     </div>
-    <div id="plats-list"></div>
+    <div id="restaurants-list"></div>
     `;
 
-	const platsList = element.querySelector("#plats-list");
+	const restaurantsList = element.querySelector("#restaurants-list");
 
-	// Fonction pour afficher les plats en fonction du mode d'affichage
+	// Fonction pour afficher les restaurants en fonction du mode d'affichage
 	const render = () => {
 		if (mode === "grid") {
-			CardsList(platsList, plats, ProduitCard, ["name", "description", "categorie", "prix"]);
+			CardsList(restaurantsList, restaurants, RestaurantsCard, ["name", "description", "categorie", "prix"]);
 		} else if (mode === "table") {
-			DataTable(platsList, plats, ProduitRow, ["name", "description", "categorie", "prix"], ["nom", "Description", "Categorie", "Prix", "Actions"]);
+			DataTable(restaurantsList, restaurants, RestaurantsRow, ["name", "description", "categorie", "prix"], ["nom", "Description", "Categorie", "Prix", "Actions"]);
 		}
 	};
 

@@ -1,8 +1,8 @@
-import Plats from "../../storage/plats.json";
+import Restaurants from "../../storage/restaurant.json";
 import { CategorieBadge } from "./Partials/CategorieBadge";
 
 /**
- * Page des détails d'un produit
+ * Page des détails d'un restaurant
  *
  * @param {HTMLElement} element
  * @returns {void}
@@ -22,23 +22,23 @@ function escapeHTML(str) {
 	);
 }
 
-export const Plat = (element) => {
-	// on récupère l'identifiant du Plat depuis l'URL
+export const Restaurant = (element) => {
+	// on récupère l'identifiant du restaurant depuis l'URL
 	const url = new URL(window.location.href);
-	const produitId = parseInt(url.searchParams.get("id"));
-	// on récupère le produit correspondant à l'identifiant
-	const produit = Plats.find((produit) => plat.id === platId);
+	const restaurantId = parseInt(url.searchParams.get("id"));
+	// on récupère le restaurant correspondant à l'identifiant
+	const restaurant = Restaurants.find((restaurant) => restaurant.id === restaurantId);
 
-	// si le Plat n'existe pas, on affiche un message d'erreur
-	if (plat && plat.name && plat.photo && plat.description && plat.prix && plat.catégorie) {
+	// si le restaurant n'existe pas, on affiche un message d'erreur
+	if (restaurant && restaurant.name && restaurant.photo && restaurant.description && restaurant.prix && restaurant.catégorie) {
 		element.innerHTML = `
-      <h1 class="presentation">${escapeHTML(produit.name)}</h1>
+      <h1 class="presentation">${escapeHTML(restaurant.name)}</h1>
       <figure class="presentation">
-      <img src="${escapeHTML(plat.photo)}" id="affiche" class="card-img-top" alt="${escapeHTML(plat.name)}">
+      <img src="${escapeHTML(restaurant.photo)}" id="affiche" class="card-img-top" alt="${escapeHTML(restaurant.name)}">
       </figure>
-      <p class="presentation">${escapeHTML(plat.description)}</p>
-      <p id="prix" class="presentation">${escapeHTML(plat.prix.toString())} €</p>
-      <p class="presentation">${CategorieBadge(escapeHTML(plat.catégorie))}</p>
+      <p class="presentation">${escapeHTML(restaurant.description)}</p>
+      <p id="prix" class="presentation">${escapeHTML(restaurant.prix.toString())} €</p>
+      <p class="presentation">${CategorieBadge(escapeHTML(restaurant.catégorie))}</p>
       <p class="presentation"><input id="quantite"  type="number" name="quantity" value="1" min="1" max="10">
       <button id="envoyer" class="btn btn-success presentation">Ajouter au panier</button></p>
 			<div id="messageConfirmation" style="color: lime; "></div>
@@ -52,17 +52,17 @@ export const Plat = (element) => {
 				if (!isNaN(quantite) && quantite > 0) {
 					try {
 						let panier = JSON.parse(localStorage.getItem("panier")) || [];
-						let produitPanier = panier.find((produit) => produit.id === produitId);
-						if (produitPanier) {
-							produitPanier.quantite += quantite;
+						let restaurantPanier = panier.find((restaurant) => restaurant.id === restaurantId);
+						if (restaurantPanier) {
+							restaurantPanier.quantite += quantite;
 						} else {
-							panier.push({ ...produit, quantite });
+							panier.push({ ...restaurant, quantite });
 						}
 						localStorage.setItem("panier", JSON.stringify(panier));
 
 						// Afficher un message de confirmation
 						let messageConfirmation = document.getElementById("messageConfirmation");
-						messageConfirmation.innerHTML = "Le produit a bien été ajouté à votre panier.";
+						messageConfirmation.innerHTML = "Le plat a bien été ajouté à votre panier.";
 						messageConfirmation.style.display = "block ";
 
 						document.dispatchEvent(new CustomEvent("panierChange"));
@@ -72,7 +72,7 @@ export const Plat = (element) => {
 							messageConfirmation.style.display = "none";
 						}, 3000);
 
-						// return Produit(element);
+						// return Plat(element);
 					} catch (e) {
 						console.error("Erreur lors de la manipulation du panier", e);
 					}
