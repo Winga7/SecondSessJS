@@ -16,7 +16,7 @@ export const CardsList = (element, items, itemTemplate, searchableFields) => {
 	let currentPage = parseInt(new URL(window.location).searchParams.get("page")) || 1;
 	let searchInputValue = new URL(window.location).searchParams.get("search") || "";
 	// On initialise une copie des items pour les filtrer et paginer
-	// cela nous permet de ne pas modifier le tableau d'origine
+	// cela nous permet de ne pas modifier le tableau d'origine.
 	let filteredItems = items;
 
 	// On génère un identifiant unique pour le composant
