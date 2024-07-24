@@ -6,12 +6,11 @@
  */
 export const CategorieBadge = (categorie) => {
 	const categories = {
-		admin: "text-bg-danger",
-		Chaperons: "text-bg-primary",
-		Gants: "text-bg-success",
-		Blocs: "text-bg-warning",
-		Leurre: "text-bg-dark",
-		Telemetrie: "text-bg-danger",
+		Fast_Food: "text-bg-danger",
+		Français: "text-bg-primary",
+		Italien: "text-bg-success",
+		Japonais: "text-bg-warning",
+		Oriental: "text-bg-dark",
 		Rapaces: "text-bg-secondary",
 		Divers: "text-bg-info",
 	};

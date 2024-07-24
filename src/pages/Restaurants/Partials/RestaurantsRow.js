@@ -17,11 +17,10 @@ import { CategorieBadge } from "./CategorieBadge";
 export const RestaurantsRow = (restaurant) => {
 	return `
     <tr>
-      <td class="rowcarte">${restaurants.name}</td>
-      <td class="rowcarte">${restaurants.description}</td>
-      <td>${CategorieBadge(restaurants.catégorie)}</td>
-      <td class="prix">${restaurants.prix} €</td>
-      <td><a class="btn btn-primary btn-sm" href="/restaurant?id=${restaurants.id}"><i class="ri-search-eye-line"></i></a></td>
+      <td class="rowcarte">${restaurant.nom}</td>
+      <td class="rowcarte">${restaurant.description}</td>
+      <td>${CategorieBadge(restaurant.catégorie)}</td>
+      <td><a class="btn btn-primary btn-sm" href="/restaurant?id=${restaurant.id}"><i class="ri-search-eye-line"></i></a></td>
     </tr>
     `;
 };

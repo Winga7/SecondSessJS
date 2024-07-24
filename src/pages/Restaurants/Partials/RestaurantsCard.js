@@ -17,14 +17,14 @@ import { CategorieBadge } from "./CategorieBadge";
 export const RestaurantsCard = (restaurant) => {
 	return `
     <div class="col p-2">
-      <a class="card restaurant-link" href="/restaurant?id=${restaurants.id}">
+      <a class="card restaurant-link" href="/restaurant?id=${restaurant.id}">
         <div class="card-body">
-          <h5 class="card-title carte">${restaurants.name}</h5>
+          <h5 class="card-title carte text-decoration-underline">${restaurant.nom}</h5>
           <figure>
-          <img src="${restaurants.photo}" class="card-img-top imgCard" alt="${restaurants.name}">
+          <img src="${restaurant.photo}" class="card-img-top imgCard" alt="${restaurant.nom}">
           </figure>
-          <p class="card-im carte prix">${restaurants.prix} €</p>
-          ${CategorieBadge(restaurants.catégorie)}
+          <p class="card-im carte description ">${restaurant.description} </p>
+          ${CategorieBadge(restaurant.catégorie)}
         </div>
       </a>
     </div>

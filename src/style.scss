@@ -48,6 +48,21 @@ nav {
 	height: 15em !important;
 }
 
+// Restaurantcard
+
+.restaurant-link{
+	text-decoration: none;
+}
+
+.description {
+	text-align: justify;
+	overflow: hidden;
+	display: -webkit-box;
+   -webkit-line-clamp: 3; /* nombre de ligne visible */
+    line-clamp: 3; 
+  	-webkit-box-orient: vertical;
+}	
+
 // ProduitRow
 
 .rowcarte {

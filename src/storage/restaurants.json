@@ -4,7 +4,7 @@
 		"nom": "Quick",
 		"photo": "./img/restaurants/",
 		"description": "Quick est une chaîne de restauration rapide belge, fondée en 1971 à Schoten, dans la province d'Anvers. Quick est la première chaîne de restauration rapide en Belgique, devant McDonald's et Burger King.",
-		"catégorie": "Fast Food"
+		"catégorie": "Fast_Food"
 	},
 	{
 		"id": 2,
@@ -39,20 +39,20 @@
 		"nom": "Mc'Donald",
 		"photo": "./img/restaurants/",
 		"description": "Mc'Donald est une chaîne de restauration rapide américaine, fondée en 1940 à San Bernardino, en Californie. Mc'Donald est la deuxième chaîne de restauration rapide au monde, derrière Subway.",
-		"catégorie": "Fast Food"
+		"catégorie": "Fast_Food"
 	},
 	{
 		"id": 7,
 		"nom": "Subway",
 		"photo": "./img/restaurants/",
 		"description": "Subway est une chaîne de restauration rapide américaine, fondée en 1965 à Bridgeport, dans le Connecticut. Subway est la première chaîne de restauration rapide au monde, devant Mc'Donald et Burger King.",
-		"catégorie": "Fast Food"
+		"catégorie": "Fast_Food"
 	},
 	{
 		"id": 8,
 		"nom": "Domino's Pizza",
 		"photo": "./img/restaurants/",
 		"description": "Domino's Pizza est une chaîne de restauration rapide américaine, fondée en 1960 à Ypsilanti, dans le Michigan. Domino's Pizza est la deuxième chaîne de restauration rapide en Belgique, derrière Pizza Hut.",
-		"catégorie": "Fast Food"
+		"catégorie": "Fast_Food"
 	}
 ]

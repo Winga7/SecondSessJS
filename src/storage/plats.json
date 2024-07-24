@@ -2,91 +2,91 @@
 	{
 		"id": 1,
 		"restaurantsid": 1,
-		"name": "Giant Burger",
+		"nom": "Giant Burger",
 		"photo": "./img/plats/",
 		"description": "Le Giant est le burger emblématique du Quick. Il est composé de deux steaks hachés, de fromage fondu, de salade, de cornichons et de sauce Giant."
 	},
 	{
 		"id": 2,
 		"restaurantsid": 1,
-		"name": "Cheese Burger",
+		"nom": "Cheese Burger",
 		"photo": "./img/plats/",
 		"description": "Un hamburger avec fromage fondu, oignon, cornichon, ketchup et moutarde."
 	},
 	{
 		"id": 3,
 		"restaurantsid": 1,
-		"name": "Chicken Dip's",
+		"nom": "Chicken Dip's",
 		"photo": "./img/plats/",
 		"description": "Des morceaux de poulet panés, accompagnés d'une sauce au choix. Disponible en portions de 4, 7, 12 ou 20 pièces."
 	},
 	{
 		"id": 4,
 		"restaurantsid": 1,
-		"name": "Fish Burger",
+		"nom": "Fish Burger",
 		"photo": "./img/plats/",
 		"description": "Un hamburger avec un filet de poisson pané, de la salade, de la sauce tartare et du citron."
 	},
 	{
 		"id": 5,
 		"restaurantsid": 1,
-		"name": "Frites",
+		"nom": "Frites",
 		"photo": "./img/plats/",
 		"description": "Des frites croustillantes, à accompagner d'une sauce au choix. Disponible en petites, moyennes ou grandes portions. Nouveau : les frites au fromage ou au bacon!"
 	},
 	{
 		"id": 6,
 		"restaurantsid": 1,
-		"name": "Salade",
+		"nom": "Salade",
 		"photo": "./img/plats/",
 		"description": "Une salade composée de laitue, de tomates, de concombre, de carottes, de maïs et de croûtons. Disponible en petite ou grande portion. Nouveau : la salade Caesar!"
 	},
 	{
 		"id": 7,
 		"restaurantsid": 1,
-		"name": "Sundae",
+		"nom": "Sundae",
 		"photo": "./img/plats/",
 		"description": "Une coupe de glace vanille, nappée de sauce au choix et de morceaux de chocolat ou de fruits. Disponible en petite, moyenne ou grande portion."
 	},
 	{
 		"id": 8,
 		"restaurantsid": 1,
-		"name": "Milk Shake",
+		"nom": "Milk Shake",
 		"photo": "./img/plats/",
 		"description": "Un milk shake à la vanille, au chocolat ou à la fraise. Disponible en petite, moyenne ou grande portion."
 	},
 	{
 		"id": 9,
 		"restaurantsid": 2,
-		"name": "Sushi crevette",
+		"nom": "Sushi crevette",
 		"photo": "./img/plats/",
 		"description": "Sushi garni de crevette, de riz vinaigré et d'algue nori. (2 pièces)"
 	},
 	{
 		"id": 10,
 		"restaurantsid": 2,
-		"name": "Maki au saumon",
+		"nom": "Maki au saumon",
 		"photo": "./img/plats/",
 		"description": "Des rouleaux de riz vinaigré, garnis de saumon cru et d'algue nori. (6 pièces)"
 	},
 	{
 		"id": 11,
 		"restaurantsid": 2,
-		"name": "Sashimi de thon",
+		"nom": "Sashimi de thon",
 		"photo": "./img/plats/",
 		"description": "Des tranches de poisson cru, accompagnées de wasabi et de sauce soja. (4 pièces)"
 	},
 	{
 		"id": 12,
 		"restaurantsid": 2,
-		"name": "Tempura",
+		"nom": "Tempura",
 		"photo": "./img/plats/",
 		"description": "Des beignets de légumes ou de fruits de mer, accompagnés de sauce soja. (4 pièces)"
 	},
 	{
 		"id": 13,
 		"restaurantsid": 2,
-		"name": "Ramen Tonkatsu",
+		"nom": "Ramen Tonkatsu",
 		"photo": "./img/plats/",
 		"description": "Un bol de nouilles japonaises, garni de légumes, de viande de porc et d'un oeuf mollet."
 	}
