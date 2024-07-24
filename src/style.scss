@@ -37,9 +37,6 @@ nav {
 	height: 40em !important;
 }
 
-.prix {
-	font-weight: bold;
-}
 .carte {
 	text-align: center;
 }
@@ -63,7 +60,7 @@ nav {
   	-webkit-box-orient: vertical;
 }	
 
-// ProduitRow
+// RestaurantRow
 
 .rowcarte {
 	text-align: justify;
@@ -71,8 +68,14 @@ nav {
 
 // Produit
 
-#affiche {
-	max-width: 630px;
+// #affiche {
+// 	max-width: 630px;
+// }
+
+// PlatCard
+
+#prix {
+	font-weight: bold;
 }
 
 // Panier

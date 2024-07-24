@@ -39,13 +39,17 @@ export const PlatCard = (plat) => {
   return `
     <div class="col p-2">
 		<div class="card card-body">
-			<h5 class="card-title carte text-decoration-underline">${plat.nom}</h5>
+			<h5 class="card-title carte text-dark text-center text-decoration-underline">${
+        plat.nom
+      }</h5>
 			<figure>
 				<img src="${plat.photo}" class="card-img-top imgCard" alt="${plat.nom}">
 			</figure>
-			<p class="card-im carte description ">${plat.description}</p>
-			<p id="prix" class="presentation">${plat.prix.toString()} €</p>
-			<p class="presentation"><input id="quantite"  type="number" name="quantity" value="1" min="1" max="10">
+			<p class="card-im carte text-dark text-center description ">${
+        plat.description
+      }</p>
+			<p id="prix" class="presentation text-center text-dark ">${plat.prix.toString()} €</p>
+			<p class="presentation text-dark"><input id="quantite"  type="number" name="quantity" value="1" min="1" max="10">
 			<button id="envoyer" class="btn btn-success presentation">Ajouter au panier</button></p>
 			<div id="messageConfirmation" style="color: lime; "></div>
 			</div>

@@ -1,5 +1,4 @@
 import { CardsList } from "../../components/CardsList";
-
 import Restaurants from "../../storage/restaurants.json";
 import { CategorieBadge } from "./Partials/CategorieBadge";
 import plats from "../../storage/plats.json";
@@ -50,7 +49,7 @@ export const Restaurant = (element) => {
         escapeHTML(restaurant.catégorie)
       )}</p>
 
-   <div id="plats-list"></div>
+  <div id="plats-list"></div>
 
 			
     `;
