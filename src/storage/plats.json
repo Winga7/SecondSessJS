@@ -3,91 +3,104 @@
 		"id": 1,
 		"restaurantsid": 1,
 		"nom": "Giant Burger",
-		"photo": "./img/plats/",
-		"description": "Le Giant est le burger emblématique du Quick. Il est composé de deux steaks hachés, de fromage fondu, de salade, de cornichons et de sauce Giant."
+		"photo": "./img/plats/Giant.jpg",
+		"description": "Le Giant est le burger emblématique du Quick. Il est composé de deux steaks hachés, de fromage fondu, de salade, de cornichons et de sauce Giant.",
+		"prix": 5.50
 	},
 	{
 		"id": 2,
 		"restaurantsid": 1,
 		"nom": "Cheese Burger",
-		"photo": "./img/plats/",
-		"description": "Un hamburger avec fromage fondu, oignon, cornichon, ketchup et moutarde."
+		"photo": "./img/plats/cheese.jpg",
+		"description": "Un hamburger avec fromage fondu, oignon, cornichon, ketchup et moutarde.",
+		"prix": 3.50
 	},
 	{
 		"id": 3,
 		"restaurantsid": 1,
 		"nom": "Chicken Dip's",
-		"photo": "./img/plats/",
-		"description": "Des morceaux de poulet panés, accompagnés d'une sauce au choix. Disponible en portions de 4, 7, 12 ou 20 pièces."
+		"photo": "./img/plats/chickendips.jpg",
+		"description": "Des morceaux de poulet panés, accompagnés d'une sauce au choix. Disponible en portions de 7 pièces.",
+		"prix": 4.50
 	},
 	{
 		"id": 4,
 		"restaurantsid": 1,
 		"nom": "Fish Burger",
-		"photo": "./img/plats/",
-		"description": "Un hamburger avec un filet de poisson pané, de la salade, de la sauce tartare et du citron."
+		"photo": "./img/plats/fishburger.jpg",
+		"description": "Un hamburger avec un filet de poisson pané, de la salade, de la sauce tartare et du citron.",
+		"prix": 4.00
 	},
 	{
 		"id": 5,
 		"restaurantsid": 1,
 		"nom": "Frites",
-		"photo": "./img/plats/",
-		"description": "Des frites croustillantes, à accompagner d'une sauce au choix. Disponible en petites, moyennes ou grandes portions. Nouveau : les frites au fromage ou au bacon!"
+		"photo": "./img/plats/frites.png",
+		"description": "Des frites croustillantes, à accompagner d'une sauce au choix. Disponible en petites, moyennes ou grandes portions. Nouveau : les frites au fromage ou au bacon!",
+		"prix": 2.00
 	},
 	{
 		"id": 6,
 		"restaurantsid": 1,
 		"nom": "Salade",
-		"photo": "./img/plats/",
-		"description": "Une salade composée de laitue, de tomates, de concombre, de carottes, de maïs et de croûtons. Disponible en petite ou grande portion. Nouveau : la salade Caesar!"
+		"photo": "./img/plats/salade.jpg",
+		"description": "Une salade composée de laitue, de tomates, de concombre, de carottes, de maïs et de croûtons. Disponible en petite ou grande portion. Nouveau : la salade Caesar!",
+		"prix": 3.00
 	},
 	{
 		"id": 7,
 		"restaurantsid": 1,
 		"nom": "Sundae",
-		"photo": "./img/plats/",
-		"description": "Une coupe de glace vanille, nappée de sauce au choix et de morceaux de chocolat ou de fruits. Disponible en petite, moyenne ou grande portion."
+		"photo": "./img/plats/sundae.jpg",
+		"description": "Une coupe de glace vanille, nappée de sauce au choix et de morceaux de chocolat ou de fruits. Disponible en petite, moyenne ou grande portion.",
+		"prix": 2.50
 	},
 	{
 		"id": 8,
 		"restaurantsid": 1,
 		"nom": "Milk Shake",
-		"photo": "./img/plats/",
-		"description": "Un milk shake à la vanille, au chocolat ou à la fraise. Disponible en petite, moyenne ou grande portion."
+		"photo": "./img/plats/milkshake.jpg",
+		"description": "Un milk shake à la vanille, au chocolat ou à la fraise. Disponible en petite, moyenne ou grande portion.",
+		"prix": 2.50
 	},
 	{
 		"id": 9,
 		"restaurantsid": 2,
 		"nom": "Sushi crevette",
 		"photo": "./img/plats/",
-		"description": "Sushi garni de crevette, de riz vinaigré et d'algue nori. (2 pièces)"
+		"description": "Sushi garni de crevette, de riz vinaigré et d'algue nori. (2 pièces)",
+		"prix": 3.00
 	},
 	{
 		"id": 10,
 		"restaurantsid": 2,
 		"nom": "Maki au saumon",
 		"photo": "./img/plats/",
-		"description": "Des rouleaux de riz vinaigré, garnis de saumon cru et d'algue nori. (6 pièces)"
+		"description": "Des rouleaux de riz vinaigré, garnis de saumon cru et d'algue nori. (6 pièces)",
+		"prix": 4.00
 	},
 	{
 		"id": 11,
 		"restaurantsid": 2,
 		"nom": "Sashimi de thon",
 		"photo": "./img/plats/",
-		"description": "Des tranches de poisson cru, accompagnées de wasabi et de sauce soja. (4 pièces)"
+		"description": "Des tranches de poisson cru, accompagnées de wasabi et de sauce soja. (4 pièces)",
+		"prix": 5.00
 	},
 	{
 		"id": 12,
 		"restaurantsid": 2,
 		"nom": "Tempura",
 		"photo": "./img/plats/",
-		"description": "Des beignets de légumes ou de fruits de mer, accompagnés de sauce soja. (4 pièces)"
+		"description": "Des beignets de fruits de mer, accompagnés de sauce soja. (4 pièces)",
+		"prix": 4.50
 	},
 	{
 		"id": 13,
 		"restaurantsid": 2,
 		"nom": "Ramen Tonkatsu",
 		"photo": "./img/plats/",
-		"description": "Un bol de nouilles japonaises, garni de légumes, de viande de porc et d'un oeuf mollet."
+		"description": "Un bol de nouilles japonaises, garni de légumes, de viande de porc et d'un oeuf mollet.",
+		"prix": 15.00
 	}
 ]
