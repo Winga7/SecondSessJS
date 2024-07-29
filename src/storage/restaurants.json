@@ -2,56 +2,56 @@
 	{
 		"id": 1,
 		"nom": "Quick",
-		"photo": "./img/restaurants/",
+		"photo": "./img/restaurants/quick.jpg",
 		"description": "Quick est une chaîne de restauration rapide belge, fondée en 1971 à Schoten, dans la province d'Anvers. Quick est la première chaîne de restauration rapide en Belgique, devant McDonald's et Burger King.",
 		"catégorie": "Fast_Food"
 	},
 	{
 		"id": 2,
 		"nom": "A la maison du Sushi",
-		"photo": "./img/restaurants/",
+		"photo": "./img/restaurants/maison.jpg",
 		"description": "A la maison du Sushi est un restaurant japonais. Il propose des sushis, makis, sashimis et autres spécialités japonaises.",
 		"catégorie": "Japonais"
 	},
 	{
 		"id": 3,
 		"nom": "A la Casa",
-		"photo": "./img/restaurants/",
+		"photo": "./img/restaurants/casa.jpg",
 		"description": "A la Casa est un restaurant italien. Il propose des pizzas, des pâtes, des lasagnes et autres spécialités italiennes.",
 		"catégorie": "Italien"
 	},
 	{
 		"id": 4,
 		"nom": "Comme à la maison",
-		"photo": "./img/restaurants/",
+		"photo": "./img/restaurants/comme.jpg",
 		"description": "Comme à la maison est un restaurant français. Il propose des plats typiques de la cuisine française.",
 		"catégorie": "Français"
 	},
 	{
 		"id": 5,
 		"nom": "Oasis",
-		"photo": "./img/restaurants/",
+		"photo": "./img/restaurants/oasis.jpg",
 		"description": "Oasis est un restaurant marocain. Il propose des tajines, des couscous et autres spécialités marocaines.",
 		"catégorie": "Oriental"
 	},
 	{
 		"id": 6,
 		"nom": "Mc'Donald",
-		"photo": "./img/restaurants/",
+		"photo": "./img/restaurants/mcdo.jpg",
 		"description": "Mc'Donald est une chaîne de restauration rapide américaine, fondée en 1940 à San Bernardino, en Californie. Mc'Donald est la deuxième chaîne de restauration rapide au monde, derrière Subway.",
 		"catégorie": "Fast_Food"
 	},
 	{
 		"id": 7,
 		"nom": "Subway",
-		"photo": "./img/restaurants/",
+		"photo": "./img/restaurants/subway.jpg",
 		"description": "Subway est une chaîne de restauration rapide américaine, fondée en 1965 à Bridgeport, dans le Connecticut. Subway est la première chaîne de restauration rapide au monde, devant Mc'Donald et Burger King.",
 		"catégorie": "Fast_Food"
 	},
 	{
 		"id": 8,
 		"nom": "Domino's Pizza",
-		"photo": "./img/restaurants/",
+		"photo": "./img/restaurants/dominos.jpg",
 		"description": "Domino's Pizza est une chaîne de restauration rapide américaine, fondée en 1960 à Ypsilanti, dans le Michigan. Domino's Pizza est la deuxième chaîne de restauration rapide en Belgique, derrière Pizza Hut.",
 		"catégorie": "Fast_Food"
 	}
