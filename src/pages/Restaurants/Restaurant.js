@@ -55,15 +55,15 @@ export const Restaurant = (element) => {
   const platsList = element.querySelector("#plats-list");
 
   function plat_restau(url) {
-    let test = [];
+    let platrestau = [];
     for (let index = 0; index < plats.length; index++) {
-      let idplatrestau = plats[index].restaurantsid;
+      // let idplatrestau = plats[index].restaurantsid;
       // console.log(idplatrestau);
       if (plats[index].restaurantsid === url) {
-        test.push(plats[index]);
+        platrestau.push(plats[index]);
       }
     }
-    return test;
+    return platrestau;
   }
 
   console.log();
