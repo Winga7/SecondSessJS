@@ -66,8 +66,6 @@ export const Restaurant = (element) => {
     return platrestau;
   }
 
-  console.log();
-
   CardsList(platsList, plat_restau(restaurantId), PlatCard, [
     "nom",
     "description",
