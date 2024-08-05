@@ -5,7 +5,8 @@
 		"nom": "Giant Burger",
 		"photo": "./img/plats/Giant.jpg",
 		"description": "Le Giant est le burger emblématique du Quick. Il est composé de deux steaks hachés, de fromage fondu, de salade, de cornichons et de sauce Giant.",
-		"prix": 5.50
+		"prix": 5.50,
+		"catégorie": "Burger"
 	},
 	{
 		"id": 2,
@@ -102,5 +103,13 @@
 		"photo": "./img/plats/",
 		"description": "Un bol de nouilles japonaises, garni de légumes, de viande de porc et d'un oeuf mollet.",
 		"prix": 15.00
+	},
+	{
+		"id": 14,
+		"restaurantsid": 3,
+		"nom": "Pizza Margherita",
+		"photo": "./img/plats/",
+		"description": "Une pizza garnie de tomates, de mozzarella, de basilic et d'huile d'olive.",
+		"prix": 8.00
 	}
 ]

@@ -35,7 +35,6 @@ export const Restaurant = (element) => {
 
   // si le restaurant n'existe pas, on affiche un message d'erreur
   // if (restaurant && restaurant.nom && restaurant.photo && restaurant.description && restaurant.prix && restaurant.catégorie) {
-  console.log("test");
   element.innerHTML = `
       <h1 class="presentation">${escapeHTML(restaurant.nom)}</h1>
       <figure class="presentation">
@@ -54,7 +53,26 @@ export const Restaurant = (element) => {
 			
     `;
   const platsList = element.querySelector("#plats-list");
-  CardsList(platsList, plats, PlatCard, ["name", "description", "categorie"]);
+
+  function plat_restau(url) {
+    let test = [];
+    for (let index = 0; index < plats.length; index++) {
+      let idplatrestau = plats[index].restaurantsid;
+      // console.log(idplatrestau);
+      if (plats[index].restaurantsid === url) {
+        test.push(plats[index]);
+      }
+    }
+    return test;
+  }
+
+  console.log();
+
+  CardsList(platsList, plat_restau(restaurantId), PlatCard, [
+    "nom",
+    "description",
+    "catégorie",
+  ]);
   // let baliseQuantite = document.getElementById("quantite");
   // let baliseEnvoyer = document.getElementById("envoyer");
   // if (baliseEnvoyer && baliseQuantite) {

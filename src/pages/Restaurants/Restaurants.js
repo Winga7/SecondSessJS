@@ -39,17 +39,17 @@ export const Restaurants = (element) => {
   const render = () => {
     if (mode === "grid") {
       CardsList(restaurantsList, restaurants, RestaurantsCard, [
-        "name",
+        "nom",
         "description",
-        "categorie",
+        "catégorie",
       ]);
     } else if (mode === "table") {
       DataTable(
         restaurantsList,
         restaurants,
         RestaurantsRow,
-        ["name", "description", "categorie", "prix"],
-        ["Nom", "Description", "Categorie", "Actions"]
+        ["nom", "description", "catégorie", "prix"],
+        ["Nom", "Description", "Catégorie", "Actions"]
       );
     }
   };

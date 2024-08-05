@@ -25,7 +25,7 @@ nav {
 
 // Présentation produit
 #affiche {
-	width: 65%;
+	width: 30%;
 }
 
 // Carrousel
@@ -73,6 +73,18 @@ nav {
 // }
 
 // PlatCard
+
+@media screen and (max-width: 768px) {
+	.presentation figure {
+		width: 100%;
+	}
+	
+}
+
+.presentation figure {
+	display: flex;
+	justify-content: center;
+}
 
 #prix {
 	font-weight: bold;
