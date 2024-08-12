@@ -5,13 +5,13 @@
 		"description": "<a href='/restaurant?id=2'>Voir plus</a>"
 	},
 	{
-		"src": "",
-		"title": "",
-		"description": ""
+		"src": "/img/restaurants/oasis.jpg",
+		"title": "Restaurant Oriental",
+		"description": "<a href='/restaurant?id=5'>Voir plus</a>"
 	},
 	{
-		"src": "",
-		"title": "",
-		"description": ""
+		"src": "/img/restaurants/rancho.jpg",
+		"title": "Restaurant El Rancho Alegre",
+		"description": "<a href='/restaurant?id=9'>Voir plus</a>"
 	}
 ]
