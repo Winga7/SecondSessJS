@@ -336,7 +336,7 @@
 	"id": 39,
 	"restaurantsid": 3,
 	"nom": "Pain à l'ail",
-	"photo": "./img/plats/painaail.jpg",
+	"photo": "./img/plats/painail.jpg",
 	"description": "Un pain garni de beurre à l'ail, de persil et de parmesan. 4 tranches.",
 	"prix": 4.00,
 	"catégorie":"Entrée"
