@@ -218,10 +218,10 @@
 	{
 		"id": 26,
 		"restaurantsid": 4,
-		"nom": "Pâtes Carbonara",
+		"nom": "Coquillettes au beurre et jambon",
 		"photo": "./img/plats/carbonara.jpg",
-		"description": "Des pâtes à la crème, au lard et au parmesan.",
-		"prix": 9.00,
+		"description": "Des coquillettes cuites al dente, servies avec du beurre, du jambon et du gruyère râpé.",
+		"prix": 8.00,
 		"catégorie":"Pâtes"
 	},
 	{
@@ -237,7 +237,7 @@
 		"id": 28,
 		"restaurantsid": 4,
 		"nom": "Crème brûlée",
-		"photo": "./img/plats/cremebrulee.jpg",
+		"photo": "./img/plats/crembrulee.jpeg",
 		"description": "Un dessert à base de crème vanillée, caramélisée au chalumeau.",
 		"prix": 6.00,
 		"catégorie":"Dessert"
@@ -264,7 +264,7 @@
 		"id": 31,
 		"restaurantsid": 5,
 		"nom": "Tajiin de poulet",
-		"photo": "./img/plats/tajinepoulet.jpg",
+		"photo": "./img/plats/tajinepoulet.jpeg",
 		"description": "Un tajine de poulet aux olives et citrons confits, accompagné de semoule.",
 		"prix": 12.00,
 		"catégorie":"Tajine"
@@ -273,7 +273,7 @@
 		"id": 32,
 		"restaurantsid": 5,
 		"nom": "Couscous royal",
-		"photo": "./img/plats/couscousroyal.jpg",
+		"photo": "./img/plats/couscousroyal.jpeg",
 		"description": "Un couscous garni de poulet, de merguez et de boulettes de viande.",
 		"prix": 14.00,
 		"catégorie":"Couscous"
@@ -282,7 +282,7 @@
 		"id": 33,
 		"restaurantsid": 5,
 		"nom": "Pastilla",
-		"photo": "./img/plats/pastilla.jpg",
+		"photo": "./img/plats/pastilla.jpeg",
 		"description": "Une pastilla au poulet, aux amandes et aux épices.",
 		"prix": 10.00,
 		"catégorie":"Pastilla"
@@ -340,5 +340,149 @@
 	"description": "Un pain garni de beurre à l'ail, de persil et de parmesan. 4 tranches.",
 	"prix": 4.00,
 	"catégorie":"Entrée"
+},
+{
+	"id": 40,
+	"restaurantsid": 4,
+	"nom": "Cassoulet Toulousain",
+	"photo": "./img/plats/cassoulet.jpeg",
+	"description": "Un cassoulet à la saucisse de Toulouse, au confit de canard et aux haricots blancs.",
+	"prix": 15.00,
+	"catégorie":"Plat principal"
+},
+{
+	"id": 41,
+	"restaurantsid": 5,
+	"nom": "Harira",
+	"photo": "./img/plats/harira.jpeg",
+	"description": "Une soupe marocaine à base de tomates, de lentilles, de pois chiches et de coriandre.",
+	"prix": 6.00,
+	"catégorie":"Soupe"
+},
+{
+	"id": 42,
+	"restaurantsid": 5,
+	"nom": "Méchoui",
+	"photo": "./img/plats/mechoui.jpg",
+	"description": "Un agneau entier rôti à la broche, servi avec des légumes grillés et de la semoule.",
+	"prix": 20.00,
+	"catégorie":"Plat principal"
+},
+{
+	"id": 43,
+	"restaurantsid": 5,
+	"nom": "Msemen",
+	"photo": "./img/plats/msemen.jpeg",
+	"description": "Une crêpe marocaine feuilletée, garnie de miel, de beurre et d'amandes.",
+	"prix": 5.00,
+	"catégorie":"Dessert"
+},
+{
+	"id": 44,
+	"restaurantsid": 5,
+	"nom": "Thé à la menthe",
+	"photo": "./img/plats/thementhe.jpg",
+	"description": "Un thé vert à la menthe, servi chaud et sucré.",
+	"prix": 2.00,
+	"catégorie":"Boisson"
+},
+{
+	"id": 45,
+	"restaurantsid": 5,
+	"nom": "Kefta",
+	"photo": "./img/plats/kefta.jpeg",
+	"description": "Des boulettes de viande hachée, grillées et servies avec des légumes et de la semoule.",
+	"prix": 12.00,
+	"catégorie":"Plat principal"
+},
+{
+	"id": 46,
+	"restaurantsid": 5,
+	"nom": "Taboulé libainais",
+	"photo": "./img/plats/taboule.jpg",
+	"description": "Une salade de persil, de tomates, de concombres, de menthe et de boulgour.",
+	"prix": 6.00,
+	"catégorie":"Salade"
+},
+{
+	"id": 47,
+	"restaurantsid": 6,
+	"nom": "Big Mac",
+	"photo": "./img/plats/bicmac.png",
+	"description": "Le Big Mac est le burger emblématique de Mc'Donald. Il est composé de deux steaks hachés, de fromage fondu, de salade, de cornichons et de sauce Big Mac.",
+	"prix": 5.50,
+	"catégorie":"Burger"
+},
+{
+	"id": 48,
+	"restaurantsid": 6,
+	"nom": "McCrispy Samuraï",
+	"photo": "./img/plats/mccrispy.jpg",
+	"description": "Un burger au poulet croustillant, garni de salade, de tomates, de bacon et de sauce samuraï.",
+	"prix": 6.00,
+	"catégorie":"Burger"
+},
+{
+	"id": 49,
+	"restaurantsid": 6,
+	"nom": "Royal Crispy Bacon",
+	"photo": "./img/plats/royalcrispy.png",
+	"description": "Un burger au boeuf croustillant, garni de salade, de tomates, de bacon et de sauce barbecue.",
+	"prix": 6.00,
+	"catégorie":"Burger"
+},
+{
+	"id": 50,
+	"restaurantsid": 6,
+	"nom": "Chicken McNuggets",
+	"photo": "./img/plats/nuggets.jpg",
+	"description": "Des morceaux de poulet panés, accompagnés d'une sauce au choix. Disponible en portions de 6 pièces.",
+	"prix": 4.50,
+	"catégorie":"Finger Food"
+},
+{
+	"id": 51,
+	"restaurantsid": 6,
+	"nom": "Frites",
+	"photo": "./img/plats/fritesmcdo.png",
+	"description": "Des frites croustillantes, à accompagner d'une sauce au choix. Disponible en petites, moyennes ou grandes portions.",
+	"prix": 3.00,
+	"catégorie":"Accompagnement"
+},
+{
+	"id": 52,
+	"restaurantsid": 6,
+	"nom": "Salade poulet miel moutarde",
+	"photo": "./img/plats/saladepoulet.png",
+	"description": "Une salade composée de laitue, de tomates, de concombre, de carottes, de poulet grillé et de sauce miel-moutarde.",
+	"prix": 5.00,
+	"catégorie":"Salade"
+},
+{
+	"id": 53,
+	"restaurantsid": 6,
+	"nom": "Veggie de Luxe",
+	"photo": "./img/plats/veggie.jpg",
+	"description": "Un burger végétarien, garni de salade, de tomates, de fromage fondu et de sauce Big Mac.",
+	"prix": 5.50,
+	"catégorie":"Burger"
+},
+{
+	"id": 54,
+	"restaurantsid": 6,
+	"nom": "McFlurry",
+	"photo": "./img/plats/mcflurry.png",
+	"description": "Une coupe de glace vanille, nappée de sauce au choix et de morceaux de chocolat ou de fruits.",
+	"prix": 3.00,
+	"catégorie":"Dessert"
+},
+{
+	"id": 55,
+	"restaurantsid": 6,
+	"nom": "Crispy Chicken Sharing Box",
+	"photo": "./img/plats/crispybox.png",
+	"description": "Un assortiment de 3 Tenders, 3 Wings, 9 Nuggets et 2 sauces au choix.",
+	"prix": 10.00,
+	"catégorie":"Finger Food"
 }
 ]
