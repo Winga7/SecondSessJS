@@ -1,17 +1,17 @@
 [
 	{
 		"src": "/img/restaurants/maison.jpg",
-		"title": "Restaurant Japonais",
+		"title": "<p class='carrousel'>Restaurant Japonais</p>",
 		"description": "<a class='carrousel' href='/restaurant?id=2'>Voir plus</a>"
 	},
 	{
 		"src": "/img/restaurants/oasis.jpg",
-		"title": "Restaurant Oriental",
+		"title": "<p class='carrousel'>Restaurant Oriental</p>",
 		"description": "<a class='carrousel' href='/restaurant?id=5'>Voir plus</a>"
 	},
 	{
 		"src": "/img/restaurants/rancho.jpg",
-		"title": "Restaurant El Rancho Alegre",
+		"title": "<p class='carrousel'>Restaurant El Rancho Alegre</p>",
 		"description": "<a class='carrousel' href='/restaurant?id=9'>Voir plus</a>"
 	}
 ]
