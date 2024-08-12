@@ -129,7 +129,7 @@
 		"id": 15,
 		"restaurantsid": 3,
 		"nom": "Pizza 4 fromages",
-		"photo": "./img/plats/4fromages.jpg",
+		"photo": "./img/plats/4fromages.jpeg",
 		"description": "Une pizza garnie de mozzarella, de gorgonzola, de chèvre et de parmesan.",
 		"prix": 10.00,
 		"catégorie":"Pizza"
@@ -175,7 +175,7 @@
 		"restaurantsid": 3,
 		"nom": "Lasagne",
 		"photo": "./img/plats/lasagne.jpg",
-		"description": "Des lasagnes à la bolognaise, gratinées au four.",
+		"description": "Des lasagnes à la bolognaise, gratinées au four. Possibilité de lasagnes végétariennes.",
 		"prix": 12.00,
 		"catégorie":"Pâtes"
 	},
@@ -286,5 +286,59 @@
 		"description": "Une pastilla au poulet, aux amandes et aux épices.",
 		"prix": 10.00,
 		"catégorie":"Pastilla"
+},
+{
+	"id": 34,
+	"restaurantsid": 1,
+	"nom": "Chicken Burger",
+	"photo": "./img/plats/chicken.jpg",
+	"description": "Un hamburger avec un filet de poulet pané, de la salade, de la sauce mayonnaise et du citron.",
+	"prix": 4.00,
+	"catégorie":"Burger"
+},
+{
+	"id": 35,
+	"restaurantsid": 2,
+	"nom": "Sushi saumon",
+	"photo": "./img/plats/sushisaumon.jpeg",
+	"description": "Sushi garni de saumon, de riz vinaigré et d'algue nori. (2 pièces)",
+	"prix": 3.00,
+	"catégorie":"Sushi"
+},
+{
+	"id": 36,
+	"restaurantsid": 2,
+	"nom": "Maki au thon",
+	"photo": "./img/plats/maki-thon.jpg",
+	"description": "Des rouleaux de riz vinaigré, garnis de thon cru et d'algue nori. (6 pièces)",
+	"prix": 4.00,
+	"catégorie":"Sushi"
+},
+{
+	"id": 37,
+	"restaurantsid": 2,
+	"nom": "Temaki à l'anguille",
+	"photo": "./img/plats/temakianguille.jpg",
+	"description": "Un cône de riz vinaigré, garni d'anguille grillée, d'avocat et de sauce teriyaki.",
+	"prix": 5.00,
+	"catégorie":"Sushi"
+},
+{
+	"id": 38,
+	"restaurantsid": 2,
+	"nom": "Ramen Shoyu",
+	"photo": "./img/plats/Shoyu-Ramen.jpg",
+	"description": "Un bol de nouilles japonaises, garni de légumes, de viande de poulet et d'un oeuf mollet.",
+	"prix": 14.00,
+	"catégorie":"Ramen"
+},
+{
+	"id": 39,
+	"restaurantsid": 3,
+	"nom": "Pain à l'ail",
+	"photo": "./img/plats/painaail.jpg",
+	"description": "Un pain garni de beurre à l'ail, de persil et de parmesan. 4 tranches.",
+	"prix": 4.00,
+	"catégorie":"Entrée"
 }
 ]

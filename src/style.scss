@@ -23,6 +23,10 @@ nav {
 	text-align: center;
 }
 
+#accueilimg {
+	width: 20%;
+}
+
 
 // Carrousel
 
@@ -38,7 +42,7 @@ nav {
 }
 
 .imgCard {
-	height: 15em !important;
+	height: 17em !important;
 }
 
 // Restaurantcard
@@ -51,8 +55,8 @@ nav {
 	text-align: justify;
 	overflow: hidden;
 	display: -webkit-box;
-   -webkit-line-clamp: 3; /* nombre de ligne visible */
-    line-clamp: 3; 
+   -webkit-line-clamp: 2; /* nombre de ligne visible */
+    line-clamp: 2; 
   	-webkit-box-orient: vertical;
 }	
 

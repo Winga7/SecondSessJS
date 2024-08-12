@@ -11,6 +11,7 @@ export const CategorieBadge = (categorie) => {
     Italien: "text-bg-success",
     Japonais: "text-bg-warning",
     Oriental: "text-bg-dark",
+    Mexicain: "text-bg-info",
   };
 
   const categorieBadge = categories[categorie] || "text-bg-secondary";
