@@ -484,5 +484,47 @@
 	"description": "Un assortiment de 3 Tenders, 3 Wings, 9 Nuggets et 2 sauces au choix.",
 	"prix": 10.00,
 	"catégorie":"Finger Food"
+},
+{
+	"id": 56,
+	"restaurantsid": 7,
+	"nom": "Chicken Mexicali",
+	"photo": "./img/plats/mexicali.png",
+	"description": "Du poulet façon rôtisserie et du guacamole avec fromage mozza-cheddar râpés, maïs, poivrons, oignons rouges, concombres, tomates, salade et sauce au choix",
+	"prix": 7.00,
+	"catégorie": "Sandwich"
+},
+{
+	"id": 57,
+	"restaurantsid": 7,
+	"nom": "Deli Pastrami",
+	"photo": "./img/plats/pastrami.png",
+	"description": "Une chiffonnade de bœuf au poivre et des tranches de dinde avec fromage américain, oignons frits, cornichons, tomates, salade et sauce au choix",
+	"prix": 8.00,
+	"catégorie": "Sandwich"
+},
+{
+	"id": 58,
+	"restaurantsid": 7,
+	"nom": "Texan Steakhouse",
+	"photo": "./img/plats/texan.png",
+	"description": "Du Steakhouse, du bacon, double fromage, oignons caramélisés, cornichons, tomates, salade et sauce au choix",
+	"prix": 9.00,
+	"catégorie": "Sandwich"
+},
+{
+	"id": 59,
+	"restaurantsid": 7,
+	"nom": "Wrap Caesar Avocado",
+	"photo": "./img/plats/caesar.png",
+	"description": "Du poulet façon rôtisserie, du bacon, de l'avocat, du parmesan, des croûtons, de la salade et sauce Caesar",
+	"prix": 6.00,
+	"catégorie": "Wrap"
+},
+{
+	"id": 60,
+	"restaurantsid": 7,
+	
+
 }
 ]
