@@ -520,11 +520,5 @@
 	"description": "Du poulet façon rôtisserie, du bacon, de l'avocat, du parmesan, des croûtons, de la salade et sauce Caesar",
 	"prix": 6.00,
 	"catégorie": "Wrap"
-},
-{
-	"id": 60,
-	"restaurantsid": 7,
-	
-
 }
 ]
