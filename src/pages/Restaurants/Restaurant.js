@@ -79,11 +79,11 @@ export const Restaurant = (element) => {
   // 		if (!isNaN(quantite) && quantite > 0) {
   // 			try {
   // 				let panier = JSON.parse(localStorage.getItem("panier")) || [];
-  // 				let restaurantPanier = panier.find((restaurant) => restaurant.id === restaurantId);
-  // 				if (restaurantPanier) {
-  // 					restaurantPanier.quantite += quantite;
+  // 				let platPanier = panier.find((plat) => plats.id === platsId);
+  // 				if (platPanier) {
+  // 					platPanier.quantite += quantite;
   // 				} else {
-  // 					panier.push({ ...restaurant, quantite });
+  // 					panier.push({ ...plat, quantite });
   // 				}
   // 				localStorage.setItem("panier", JSON.stringify(panier));
 

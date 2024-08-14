@@ -48,6 +48,7 @@ export const PlatCard = (plat) => {
 			<p class="card-im carte text-dark text-center description ">${
         plat.description
       }</p>
+      ${CategorieBadge(plat.catégorie)}
 			<p id="prix" class="presentation text-center text-dark ">${plat.prix.toString()} €</p>
 			<p class="presentation text-dark"><input id="quantite"  type="number" name="quantity" value="1" min="1" max="10">
 			<button id="envoyer" class="btn btn-success presentation">Ajouter au panier</button></p>

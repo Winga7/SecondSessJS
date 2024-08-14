@@ -24,7 +24,7 @@
 		"photo": "./img/plats/chickendips.jpg",
 		"description": "Des morceaux de poulet panés, accompagnés d'une sauce au choix. Disponible en portions de 7 pièces.",
 		"prix": 4.50,
-		"catégorie":"Finger Food"
+		"catégorie":"Finger_Food"
 	},
 	{
 		"id": 4,
@@ -195,7 +195,7 @@
 		"photo": "./img/plats/pouletroti.jpg",
 		"description": "Un demi-poulet rôti, accompagné de frites et de salade.",
 		"prix": 10.00,
-		"catégorie":"Plat principal"
+		"catégorie":"Plat_principal"
 	},
 	{
 		"id": 24,
@@ -204,7 +204,7 @@
 		"photo": "./img/plats/cotedeboeuf.jpg",
 		"description": "Une côte de boeuf grillée, accompagnée de frites et de salade.",
 		"prix": 15.00,
-		"catégorie":"Plat principal"
+		"catégorie":"Plat_principal"
 	},
 	{
 		"id": 25,
@@ -249,7 +249,7 @@
 		"photo": "./img/plats/boeufbourguignon.jpg",
 		"description": "Un plat traditionnel à base de boeuf mijoté, de carottes et de champignons.",
 		"prix": 16.00,
-		"catégorie":"Plat principal"
+		"catégorie":"Plat_principal"
 	},
 	{
 		"id": 30,
@@ -267,7 +267,7 @@
 		"photo": "./img/plats/tajinepoulet.jpeg",
 		"description": "Un tajine de poulet aux olives et citrons confits, accompagné de semoule.",
 		"prix": 12.00,
-		"catégorie":"Tajine"
+		"catégorie":"Plat_principal"
 	},
 	{
 		"id": 32,
@@ -276,7 +276,7 @@
 		"photo": "./img/plats/couscousroyal.jpeg",
 		"description": "Un couscous garni de poulet, de merguez et de boulettes de viande.",
 		"prix": 14.00,
-		"catégorie":"Couscous"
+		"catégorie":"Plat_principal"
 	},
 	{
 		"id": 33,
@@ -285,7 +285,7 @@
 		"photo": "./img/plats/pastilla.jpeg",
 		"description": "Une pastilla au poulet, aux amandes et aux épices.",
 		"prix": 10.00,
-		"catégorie":"Pastilla"
+		"catégorie":"Plat_principal"
 },
 {
 	"id": 34,
@@ -348,7 +348,7 @@
 	"photo": "./img/plats/cassoulet.jpeg",
 	"description": "Un cassoulet à la saucisse de Toulouse, au confit de canard et aux haricots blancs.",
 	"prix": 15.00,
-	"catégorie":"Plat principal"
+	"catégorie":"Plat_principal"
 },
 {
 	"id": 41,
@@ -366,7 +366,7 @@
 	"photo": "./img/plats/mechoui.jpg",
 	"description": "Un agneau entier rôti à la broche, servi avec des légumes grillés et de la semoule.",
 	"prix": 20.00,
-	"catégorie":"Plat principal"
+	"catégorie":"Plat_principal"
 },
 {
 	"id": 43,
@@ -393,7 +393,7 @@
 	"photo": "./img/plats/kefta.jpeg",
 	"description": "Des boulettes de viande hachée, grillées et servies avec des légumes et de la semoule.",
 	"prix": 12.00,
-	"catégorie":"Plat principal"
+	"catégorie":"Plat_principal"
 },
 {
 	"id": 46,
@@ -438,7 +438,7 @@
 	"photo": "./img/plats/nuggets.jpg",
 	"description": "Des morceaux de poulet panés, accompagnés d'une sauce au choix. Disponible en portions de 6 pièces.",
 	"prix": 4.50,
-	"catégorie":"Finger Food"
+	"catégorie":"Finger_Food"
 },
 {
 	"id": 51,
@@ -483,7 +483,7 @@
 	"photo": "./img/plats/crispybox.png",
 	"description": "Un assortiment de 3 Tenders, 3 Wings, 9 Nuggets et 2 sauces au choix.",
 	"prix": 10.00,
-	"catégorie":"Finger Food"
+	"catégorie":"Finger_Food"
 },
 {
 	"id": 56,
@@ -627,7 +627,7 @@
 	"photo": "./img/plats/kicknchickn.png",
 	"description": "Des morceaux de poulet panés epicés, accompagnés d'une sauce au choix. Disponible en portions de 6 pièces.",
 	"prix": 4.50,
-	"catégorie":"Finger Food"
+	"catégorie":"Finger_Food"
 },
 {
 	"id": 72,
@@ -645,7 +645,7 @@
 	"photo": "./img/plats/chickenitos.png",
 	"description": "Des morceaux de poulet panés, accompagnés de sauce au choix. Disponible en portions de 6 pièces.",
 	"prix": 4.50,
-	"catégorie":"Finger Food"
+	"catégorie":"Finger_Food"
 },
 {
 	"id": 74,
@@ -654,7 +654,7 @@
 	"photo": "./img/plats/tacos_al_pastor.jpg",
 	"description": "Tortillas de maïs garnies de porc mariné, d'ananas, d'oignons et de coriandre.",
 	"prix": 12.50,
-	"catégorie": "Plat principal"
+	"catégorie": "Plat_principal"
 },
 {
 	"id": 75,
@@ -672,7 +672,7 @@
 	"photo": "./img/plats/chiles_rellenos.jpg",
 	"description": "Piments poblano farcis de fromage ou de viande hachée, enrobés d'une pâte et frits.",
 	"prix": 14.00,
-	"catégorie": "Plat principal"
+	"catégorie": "Plat_principal"
 },
 {
 	"id": 77,
@@ -681,7 +681,7 @@
 	"photo": "./img/plats/enchiladas_verdes.jpg",
 	"description": "Tortillas de maïs roulées et farcies de poulet, couvertes d'une sauce verte à base de tomatilles et de coriandre.",
 	"prix": 13.50,
-	"catégorie": "Plat principal"
+	"catégorie": "Plat_principal"
 },
 {
 	"id": 78,
@@ -690,7 +690,7 @@
 	"photo": "./img/plats/quesadilla.jpg",
 	"description": "Tortillas de farine garnies de fromage fondu et d'autres ingrédients comme du poulet ou des légumes.",
 	"prix": 9.50,
-	"catégorie": "Plat principal"
+	"catégorie": "Plat_principal"
 },
 {
 	"id": 79,
@@ -699,7 +699,7 @@
 	"photo": "./img/plats/pozole.jpg",
 	"description": "Soupe traditionnelle à base de maïs, de viande de porc, de laitue, de radis et de lime.",
 	"prix": 11.00,
-	"catégorie": "Plat principal"
+	"catégorie": "Plat_principal"
 },
 {
 	"id": 80,
