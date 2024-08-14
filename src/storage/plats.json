@@ -507,7 +507,7 @@
 	"id": 58,
 	"restaurantsid": 7,
 	"nom": "Texan Steakhouse",
-	"photo": "./img/plats/texan.png",
+	"photo": "./img/plats/texan.jpeg",
 	"description": "Du Steakhouse, du bacon, double fromage, oignons caramélisés, cornichons, tomates, salade et sauce au choix",
 	"prix": 9.00,
 	"catégorie": "Sandwich"
@@ -516,9 +516,216 @@
 	"id": 59,
 	"restaurantsid": 7,
 	"nom": "Wrap Caesar Avocado",
-	"photo": "./img/plats/caesar.png",
+	"photo": "./img/plats/ceasar.jpg",
 	"description": "Du poulet façon rôtisserie, du bacon, de l'avocat, du parmesan, des croûtons, de la salade et sauce Caesar",
 	"prix": 6.00,
 	"catégorie": "Wrap"
+},
+{
+	"id": 60,
+	"restaurantsid": 7,
+	"nom": "Sweet Onion Chicken Teriyaki",
+	"photo": "./img/plats/steriyaki.jpg",
+	"description": "Du poulet mariné dans une sauce Teriyaki. Une délicieuse recette inspirée de la cuisine japonaise. Parfaite pour les adeptes du sucré-salé !",
+	"prix": 6.00,
+	"catégorie": "Sandwich"
+},
+{
+	"id": 61,
+	"restaurantsid": 7,
+	"nom": "Supreme Steak & Cheese",
+	"photo": "./img/plats/steakcheese.png",
+	"description": "Sub cheesy & grillé : Jambon, salami,pepperoni, avec mozzarella et double dose de fromage américain, sauce Southwest , poivrons et oignons rouges. Une compo du chef chaude et fondante.",
+	"prix": 8.00,
+	"catégorie": "Sandwich"
+},
+{
+	"id": 62,
+	"restaurantsid": 7,
+	"nom": "Cookies",
+	"photo": "./img/plats/cookies.jpeg",
+	"description": "Des cookies aux pépites de chocolat, à la noix de coco ou aux noix de pécan.",
+	"prix": 2.00,
+	"catégorie": "Dessert"
+},
+{
+	"id": 63,
+	"restaurantsid": 7,
+	"nom": "Chicken Bella Mozza",
+	"photo": "./img/plats/bellamozza.jpeg",
+	"description": "Du poulet façon rôtisserie, du pepperoni, de la mozzarella, des copeaux de parmesan AOP, tomates, poivrons, oignons rouges, salade et sauce au choix (Pesto recommandée) L'inspi du chef aux couleurs de l'Italie.",
+	"prix": 7.00,
+	"catégorie": "Sandwich"
+},
+{
+	"id": 64,
+	"restaurantsid": 7,
+	"nom": "Notorious BMT",
+	"photo": "./img/plats/bmt.png",
+	"description": "Sub cheesy & grillé : Jambon, salami, pepperoni, avec mozzarella et double dose de fromage américain, sauce Southwest , poivrons et oignons rouges. Une compo du chef chaude et fondante.",
+	"prix": 8.00,
+	"catégorie": "Sandwich"
+},
+{
+	"id": 65,
+	"restaurantsid": 8,
+	"nom": "Pizza Pepperoni",
+	"photo": "./img/plats/dpepperoni.jpg",
+	"description": "Une pizza garnie de pepperoni, de mozzarella et de tomates.",
+	"prix": 8.00,
+	"catégorie":"Pizza"
+},
+{
+	"id": 66,
+	"restaurantsid": 8,
+	"nom": "Pizza Margherita",
+	"photo": "./img/plats/dmargherita.jpg",
+	"description": "Une pizza garnie de tomates, de mozzarella, de basilic et d'huile d'olive.",
+	"prix": 8.00,
+	"catégorie":"Pizza"
+},
+{
+	"id": 67,
+	"restaurantsid": 8,
+	"nom": "Pizza Extravaganzza",
+	"photo": "./img/plats/dextravaganza.jpg",
+	"description": "Une pizza garnie de pepperoni, de jambon, de champignons, de poivrons, d'olives, de mozzarella et de tomates.",
+	"prix": 10.00,
+	"catégorie":"Pizza"
+},
+{
+	"id": 68,
+	"restaurantsid": 8,
+	"nom": "Pizza hot & spicy",
+	"photo": "./img/plats/dhotspicy.jpg",
+	"description": "Une pizza garnie de pepperoni, de piments, de mozzarella et de tomates.",
+	"prix": 9.00,
+	"catégorie":"Pizza"
+},
+{
+	"id": 69,
+	"restaurantsid": 8,
+	"nom": "Pizza Savoyarde",
+	"photo": "./img/plats/dsavoyarde.jpg",
+	"description": "Une pizza garnie de lardons, de reblochon, de pommes de terre, de mozzarella et de crème fraîche.",
+	"prix": 10.00,
+	"catégorie":"Pizza"
+},
+{
+	"id": 70,
+	"restaurantsid": 8,
+	"nom": "Pizza Tonno",
+	"photo": "./img/plats/dtonno.png",
+	"description": "Une pizza garnie de thon, d'oignons, de câpres, de mozzarella et de tomates.",
+	"prix": 9.00,
+	"catégorie":"Pizza"
+},
+{
+	"id": 71,
+	"restaurantsid": 8,
+	"nom": "Kick'n Chick'n",
+	"photo": "./img/plats/kicknchickn.png",
+	"description": "Des morceaux de poulet panés epicés, accompagnés d'une sauce au choix. Disponible en portions de 6 pièces.",
+	"prix": 4.50,
+	"catégorie":"Finger Food"
+},
+{
+	"id": 72,
+	"restaurantsid": 8,
+	"nom": "Cheese Bread",
+	"photo": "./img/plats/cheesebread.png",
+	"description": "Un pain garni de fromage fondu, d'ail et de persil. 4 tranches.",
+	"prix": 4.00,
+	"catégorie":"Entrée"
+},
+{
+	"id": 73,
+	"restaurantsid": 8,
+	"nom": "Chickenito's",
+	"photo": "./img/plats/chickenitos.png",
+	"description": "Des morceaux de poulet panés, accompagnés de sauce au choix. Disponible en portions de 6 pièces.",
+	"prix": 4.50,
+	"catégorie":"Finger Food"
+},
+{
+	"id": 74,
+	"restaurantsid": 9,
+	"nom": "Tacos al Pastor",
+	"photo": "./img/plats/tacos_al_pastor.jpg",
+	"description": "Tortillas de maïs garnies de porc mariné, d'ananas, d'oignons et de coriandre.",
+	"prix": 12.50,
+	"catégorie": "Plat principal"
+},
+{
+	"id": 75,
+	"restaurantsid": 9,
+	"nom": "Guacamole",
+	"photo": "./img/plats/guacamole.jpg",
+	"description": "Avocats frais écrasés avec de la coriandre, de l'oignon, du jus de lime et des piments jalapeños.",
+	"prix": 7.00,
+	"catégorie": "Entrée"
+},
+{
+	"id": 76,
+	"restaurantsid": 9,
+	"nom": "Chiles Rellenos",
+	"photo": "./img/plats/chiles_rellenos.jpg",
+	"description": "Piments poblano farcis de fromage ou de viande hachée, enrobés d'une pâte et frits.",
+	"prix": 14.00,
+	"catégorie": "Plat principal"
+},
+{
+	"id": 77,
+	"restaurantsid": 9,
+	"nom": "Enchiladas Verdes",
+	"photo": "./img/plats/enchiladas_verdes.jpg",
+	"description": "Tortillas de maïs roulées et farcies de poulet, couvertes d'une sauce verte à base de tomatilles et de coriandre.",
+	"prix": 13.50,
+	"catégorie": "Plat principal"
+},
+{
+	"id": 78,
+	"restaurantsid": 9,
+	"nom": "Quesadillas",
+	"photo": "./img/plats/quesadilla.jpg",
+	"description": "Tortillas de farine garnies de fromage fondu et d'autres ingrédients comme du poulet ou des légumes.",
+	"prix": 9.50,
+	"catégorie": "Plat principal"
+},
+{
+	"id": 79,
+	"restaurantsid": 9,
+	"nom": "Pozole",
+	"photo": "./img/plats/pozole.jpg",
+	"description": "Soupe traditionnelle à base de maïs, de viande de porc, de laitue, de radis et de lime.",
+	"prix": 11.00,
+	"catégorie": "Plat principal"
+},
+{
+	"id": 80,
+	"restaurantsid": 9,
+	"nom": "Sopa de Tortilla",
+	"photo": "./img/plats/sope_de_tortilla.jpg",
+	"description": "Soupe à la tomate garnie de morceaux de tortilla frits, de fromage, d'avocat et de crème.",
+	"prix": 8.00,
+	"catégorie": "Entrée"
+},
+{
+	"id": 81,
+	"restaurantsid": 9,
+	"nom": "Flan Mexicain",
+	"photo": "./img/plats/flan-mexicain.jpeg",
+	"description": "Dessert crémeux et aérien à base d'œufs, de lait et de caramel.",
+	"prix": 6.50,
+	"catégorie": "Dessert"
+},
+{
+	"id": 82,
+	"restaurantsid": 9,
+	"nom": "Churros",
+	"photo": "./img/plats/churros.jpg",
+	"description": "Pâtisseries frites saupoudrées de sucre et de cannelle, servies avec une sauce au chocolat.",
+	"prix": 5.50,
+	"catégorie": "Dessert"
 }
 ]
