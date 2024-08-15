@@ -12,27 +12,30 @@ import { quantiteTotalePanier, recupPanier } from "../pages/Panier";
  * @returns {void}
  */
 export const Nav = (element) => {
-	const appName = "CroqueMinute";
-	const quantite = quantiteTotalePanier();
-	const elementQuantite = document.getElementById("cart-count");
-	if (elementQuantite) {
-		elementQuantite.textContent = quantite; // Met à jour le contenu de l'élément
-	}
+  const appName = "CroqueMinute";
+  const quantite = quantiteTotalePanier();
+  const elementQuantite = document.getElementById("cart-count");
+  if (elementQuantite) {
+    elementQuantite.textContent = quantite; // Met à jour le contenu de l'élément
+  }
 
-	/**
-	 * @type {Link[]}
-	 */
-	const links = [
-		{ href: "/", text: "Accueil" },
-		{ href: "/contact", text: "Contact" },
-		{ href: "/restaurants", text: "Restaurants" },
-		{ href: "/panier", text: "Panier" },
-	];
+  /**
+   * @type {Link[]}
+   */
+  const links = [
+    { href: "/", text: "Accueil" },
+    { href: "/contact", text: "Contact" },
+    { href: "/restaurants", text: "Restaurants" },
+    { href: "/panier", text: "Panier" },
+  ];
 
-	const { panier } = recupPanier();
-	let totalArticles = panier.reduce((acc, produit) => acc + produit.quantite, 0);
+  const { panier } = recupPanier();
+  let totalArticles = panier.reduce(
+    (acc, produit) => acc + produit.quantite,
+    0
+  );
 
-	element.innerHTML = `
+  element.innerHTML = `
     <nav class="navbar navbar-expand-lg bg-dark-subtle">
       <div class="container-fluid">
         <a class="navbar-brand" href="/">${appName}</a>
@@ -42,13 +45,13 @@ export const Nav = (element) => {
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav me-auto">
             ${links
-							.map(
-								(link) => `
+              .map(
+                (link) => `
                 <li class="nav-item">
                   <a class="nav-link" href="${link.href}">${link.text}</a>
                 </li>`
-							)
-							.join("")}
+              )
+              .join("")}
           </ul>
 					<ul class="navbar-nav">
   					<li class="nav-item">
@@ -65,78 +68,83 @@ export const Nav = (element) => {
     </nav>
     `;
 
-	// Remplace les liens par des événements de navigation
-	const replaceLinksByEvents = () => {
-		const navLinks = element.querySelectorAll("a");
+  // Remplace les liens par des événements de navigation
+  const replaceLinksByEvents = () => {
+    const navLinks = element.querySelectorAll("a");
 
-		const linkClickHandler = (event) => {
-			// Empêche la navigation par défaut
-			event.preventDefault();
-			// Modifie l'URL de la page sans recharger la page
-			window.history.pushState({}, "", event.currentTarget.href);
-			// Déclenche l'événement route-changed pour changer de page sans recharger la page
-			element.dispatchEvent(new CustomEvent(ROUTE_CHANGED_EVENT));
+    const linkClickHandler = (event) => {
+      // Empêche la navigation par défaut
+      event.preventDefault();
+      // Modifie l'URL de la page sans recharger la page
+      window.history.pushState({}, "", event.currentTarget.href);
+      // Déclenche l'événement route-changed pour changer de page sans recharger la page
+      element.dispatchEvent(new CustomEvent(ROUTE_CHANGED_EVENT));
 
-			removeActive();
-			markAsActive();
-			changePageTitle();
-		};
+      removeActive();
+      markAsActive();
+      changePageTitle();
+    };
 
-		// Ajoute un écouteur d'événement sur chaque lien de navigation
-		for (let i = 0; i < navLinks.length; i++) {
-			navLinks[i].addEventListener("click", linkClickHandler);
-		}
-	};
+    // Ajoute un écouteur d'événement sur chaque lien de navigation
+    for (let i = 0; i < navLinks.length; i++) {
+      navLinks[i].addEventListener("click", linkClickHandler);
+    }
+  };
 
-	// Supprime la classe active des liens de navigation
-	const removeActive = () => {
-		const activeLink = element.querySelector("a.active");
-		if (activeLink) {
-			activeLink.classList.remove("active");
-		}
-	};
+  // Supprime la classe active des liens de navigation
+  const removeActive = () => {
+    const activeLink = element.querySelector("a.active");
+    if (activeLink) {
+      activeLink.classList.remove("active");
+    }
+  };
 
-	// Ajoute la classe active au lien de navigation correspondant à l'URL de la page courante
-	const markAsActive = () => {
-		const activeLink = element.querySelector(`a.nav-link[href="${window.location.pathname}"]`);
-		if (!activeLink) {
-			return;
-		}
-		activeLink.classList.add("active");
-	};
+  // Ajoute la classe active au lien de navigation correspondant à l'URL de la page courante
+  const markAsActive = () => {
+    const activeLink = element.querySelector(
+      `a.nav-link[href="${window.location.pathname}"]`
+    );
+    if (!activeLink) {
+      return;
+    }
+    activeLink.classList.add("active");
+  };
 
-	// Modifie le titre de la page en fonction du lien de navigation actif
-	const changePageTitle = () => {
-		const activeLink = element.querySelector("a.active");
+  // Modifie le titre de la page en fonction du lien de navigation actif
+  const changePageTitle = () => {
+    const activeLink = element.querySelector("a.active");
 
-		// Si la page courante n'est pas une page de navigation, on affiche uniquement le nom de l'application
-		if (!activeLink) {
-			document.title = appName;
-			return;
-		}
+    // Si la page courante n'est pas une page de navigation, on affiche uniquement le nom de l'application
+    if (!activeLink) {
+      document.title = appName;
+      return;
+    }
 
-		document.title = `${activeLink.textContent} - ${appName}`;
-	};
+    document.title = `${activeLink.textContent} - ${appName}`;
+  };
 
-	// Initialise la barre de navigation
-	markAsActive();
-	replaceLinksByEvents();
-	changePageTitle();
+  // Initialise la barre de navigation
+  markAsActive();
+  replaceLinksByEvents();
+  changePageTitle();
 
-	// Ajoute un écouteur d'événement pour gérer les événements de navigation du navigateur (précédent/suivant)
-	window.addEventListener("popstate", () => {
-		removeActive();
-		markAsActive();
-		changePageTitle();
-		element.dispatchEvent(new CustomEvent(ROUTE_CHANGED_EVENT));
-	});
+  // Ajoute un écouteur d'événement pour gérer les événements de navigation du navigateur (précédent/suivant)
+  window.addEventListener("popstate", () => {
+    removeActive();
+    markAsActive();
+    changePageTitle();
+    element.dispatchEvent(new CustomEvent(ROUTE_CHANGED_EVENT));
+  });
 
-	document.addEventListener("panierChange", () => {
-		const { panier } = recupPanier();
-		let totalArticles = panier.reduce((acc, produit) => acc + produit.quantite, 0);
-		let nombrePanier = document.getElementById("cart-count");
-		console.log(nombrePanier);
-		nombrePanier.innerHTML = totalArticles;
-		console.log(totalArticles);
-	});
+  document.addEventListener("panierChange", () => {
+    const { panier } = recupPanier();
+    let totalArticles = panier.reduce(
+      (acc, produit) => acc + produit.quantite,
+      0
+    );
+    let nombrePanier = document.getElementById("cart-count");
+    console.log(nombrePanier);
+    nombrePanier.innerHTML = totalArticles;
+    console.log(totalArticles);
+  });
 };

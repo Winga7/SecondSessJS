@@ -43,11 +43,11 @@
 }
 .text-bg-pates{
 	color: white;
-	background-color: rgb(255, 0, 255);
+	background-color: rgb(198, 152, 33);
 }
 .text-bg-sandwich{
 	color: white;
-	background-color: rgb(0, 255, 255);
+	background-color: rgb(213, 117, 41);
 }
 .text-bg-platprincipal{
 	color: white;
@@ -55,7 +55,7 @@
 }
 .text-bg-soupe{
 	color: white;
-	background-color: rgb(255, 192, 203);
+	background-color: rgb(245, 87, 113);
 }
 .text-bg-wrap{
 	color: white;
@@ -74,6 +74,7 @@ body {
 nav {
 	background-color: rgb(31, 31, 31);
 	font-size: 1.2em;
+	z-index: 1000;
 }
 
 .navbar-nav, .nav-link.active {
@@ -106,7 +107,7 @@ nav {
 	background-color: rgba(2, 2, 2, 0.8);
 	border-radius: 1em;
 	margin: 0;
-	padding: 0;
+	padding: 1em;
 }
 .carousel-inner img {
 	height: 40em !important;
