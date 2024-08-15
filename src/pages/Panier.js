@@ -8,66 +8,67 @@
 // ProduitPanier();
 
 export function recupPanier() {
-	try {
-		let panier = JSON.parse(localStorage.getItem("panier")) || [];
-		let total = 0;
-		panier.forEach((produit) => {
-			total += parseFloat(produit.prix) * produit.quantite;
-		});
-		return { panier, total: total.toFixed(2) };
-	} catch (e) {
-		console.error("Erreur lors de la récupération du panier", e);
-		return { panier: [], total: 0 };
-	}
+  try {
+    let panier = JSON.parse(localStorage.getItem("panier")) || [];
+    let total = 0;
+    panier.forEach((plat) => {
+      total += parseFloat(plat.prix) * plat.quantite;
+    });
+    return { panier, total: total.toFixed(2) };
+  } catch (e) {
+    console.error("Erreur lors de la récupération du panier", e);
+    return { panier: [], total: 0 };
+  }
 }
 
 export function quantitePanier() {
-	let panier = recupPanier().panier; // Correction pour accéder correctement à l'objet panier
-	let total = 0;
+  let panier = recupPanier().panier; // Correction pour accéder correctement à l'objet panier
+  let total = 0;
 
-	for (let i = 0; i < panier.length; i++) {
-		total += parseFloat(panier[i].quantite); // Correction de 'quantité' à 'quantite'
-	}
-	if (total > 999) {
-		return "999+";
-	}
-	return total.toString();
+  for (let i = 0; i < panier.length; i++) {
+    total += parseFloat(panier[i].quantite); // Correction de 'quantité' à 'quantite'
+  }
+  if (total > 999) {
+    return "999+";
+  }
+  return total.toString();
 }
 
 export { quantitePanier as quantiteTotalePanier };
 
 const SupprimerPanier = () => {
-	localStorage.removeItem("panier");
+  localStorage.removeItem("panier");
 };
 
-const AjouterProduit = (produit) => {
-	let panier = JSON.parse(localStorage.getItem("panier")) || [];
-	let produitPanier = panier.find((p) => p.id === produit.id);
-	if (produitPanier) {
-		produitPanier.quantite++;
-	} else {
-		panier.push({ ...produit, quantite: 1 });
-	}
-	localStorage.setItem("panier", JSON.stringify(panier));
-	document.dispatchEvent(new CustomEvent("panierChange"));
+const AjouterPlat = (plat) => {
+  let panier = JSON.parse(localStorage.getItem("panier")) || [];
+  let platPanier = panier.find((p) => plat.id === p.id);
+  if (platPanier) {
+    platPanier.quantite++;
+  } else {
+    panier.push({ ...plat, quantite: 1 });
+  }
+  localStorage.setItem("panier", JSON.stringify(panier));
+  document.dispatchEvent(new CustomEvent("panierChange"));
 };
 
-const EnleverProduit = (produit) => {
-	let panier = JSON.parse(localStorage.getItem("panier")) || [];
-	let produitPanier = panier.find((p) => p.id === produit.id);
-	if (produitPanier) {
-		produitPanier.quantite--;
-		if (produitPanier.quantite === 0) {
-			panier = panier.filter((p) => p.id !== produit.id);
-		}
-	}
-	localStorage.setItem("panier", JSON.stringify(panier));
-	document.dispatchEvent(new CustomEvent("panierChange"));
+const EnleverPlat = (plat) => {
+  let panier = JSON.parse(localStorage.getItem("panier")) || [];
+  let platPanier = panier.find((p) => p.id === plat.id);
+
+  if (platPanier) {
+    platPanier.quantite--;
+    if (platPanier.quantite === 0) {
+      panier = panier.filter((p) => p.id !== plat.id);
+    }
+  }
+  localStorage.setItem("panier", JSON.stringify(panier));
+  document.dispatchEvent(new CustomEvent("panierChange"));
 };
 
 export const Panier = (element) => {
-	let { panier, total } = recupPanier();
-	element.innerHTML = `
+  let { panier, total } = recupPanier();
+  element.innerHTML = `
 	<h1 class="Panier">Panier</h1>
 	<table class="table">
 		<thead>
@@ -80,20 +81,20 @@ export const Panier = (element) => {
 		</thead>
 		<tbody>
 			${panier
-				.map(
-					(produit) => `
+        .map(
+          (plat) => `
 				<tr>
-					<td class="Panier">${produit.name}</td>
-					<td class="Panier">${produit.prix} €</td>
-					<td class="Panier">${produit.quantite}</td>
-					<td class="Panier">${produit.prix * produit.quantite} €</td>
+					<td class="Panier">${plat.nom}</td>
+					<td class="Panier">${plat.prix} €</td>
+					<td class="Panier">${plat.quantite}</td>
+					<td class="Panier">${plat.prix * plat.quantite} €</td>
           <td class="Panier">
             <button class="btn btn-primary ajouterProduit">+</button>
             <button class="btn btn-danger enleverProduit">-</button>
 				</tr>
 			`
-				)
-				.join("")}
+        )
+        .join("")}
 		</tbody>
 	</table>
 	<p id="Total" >Total : <span>${total}</span> €</p>
@@ -101,22 +102,22 @@ export const Panier = (element) => {
 	Supprimer TOUT le Panier
 	</button>
 	`;
-	document.querySelector("#supprimerPanier").addEventListener("click", () => {
-		SupprimerPanier();
-		Panier(element); // Permet de mettre automatiquement à jour la page
-	});
-	element.querySelectorAll(".ajouterProduit").forEach((bouton, index) => {
-		bouton.addEventListener("click", () => {
-			const produit = panier[index];
-			AjouterProduit(produit);
-			Panier(element); // Met à jour l'affichage du panier
-		});
-	});
-	element.querySelectorAll(".enleverProduit").forEach((bouton, index) => {
-		bouton.addEventListener("click", () => {
-			const produit = panier[index];
-			EnleverProduit(produit);
-			Panier(element); // Met à jour l'affichage du panier
-		});
-	});
+  document.querySelector("#supprimerPanier").addEventListener("click", () => {
+    SupprimerPanier();
+    Panier(element); // Permet de mettre automatiquement à jour la page
+  });
+  element.querySelectorAll(".ajouterProduit").forEach((bouton, index) => {
+    bouton.addEventListener("click", () => {
+      const produit = panier[index];
+      AjouterPlat(produit);
+      Panier(element); // Met à jour l'affichage du panier
+    });
+  });
+  element.querySelectorAll(".enleverProduit").forEach((bouton, index) => {
+    bouton.addEventListener("click", () => {
+      const produit = panier[index];
+      EnleverPlat(produit);
+      Panier(element); // Met à jour l'affichage du panier
+    });
+  });
 };

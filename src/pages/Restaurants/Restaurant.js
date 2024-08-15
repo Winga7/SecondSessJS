@@ -57,8 +57,6 @@ export const Restaurant = (element) => {
   function plat_restau(url) {
     let platrestau = [];
     for (let index = 0; index < plats.length; index++) {
-      // let idplatrestau = plats[index].restaurantsid;
-      // console.log(idplatrestau);
       if (plats[index].restaurantsid === url) {
         platrestau.push(plats[index]);
       }
@@ -66,50 +64,66 @@ export const Restaurant = (element) => {
     return platrestau;
   }
 
+  function msgConfirmation(params) {}
+
   CardsList(platsList, plat_restau(restaurantId), PlatCard, [
     "nom",
     "description",
     "catégorie",
   ]);
   // let baliseQuantite = document.getElementById("quantite");
-  // let baliseEnvoyer = document.getElementById("envoyer");
-  // if (baliseEnvoyer && baliseQuantite) {
-  // 	baliseEnvoyer.addEventListener("click", () => {
-  // 		let quantite = parseInt(baliseQuantite.value);
-  // 		if (!isNaN(quantite) && quantite > 0) {
-  // 			try {
-  // 				let panier = JSON.parse(localStorage.getItem("panier")) || [];
-  // 				let platPanier = panier.find((plat) => plats.id === platsId);
-  // 				if (platPanier) {
-  // 					platPanier.quantite += quantite;
-  // 				} else {
-  // 					panier.push({ ...plat, quantite });
-  // 				}
-  // 				localStorage.setItem("panier", JSON.stringify(panier));
+  let baliseEnvoyer = document.querySelectorAll(".envoyer");
 
-  // 				// Afficher un message de confirmation
-  // 				let messageConfirmation = document.getElementById("messageConfirmation");
-  // 				messageConfirmation.innerHTML = "Le plat a bien été ajouté à votre panier.";
-  // 				messageConfirmation.style.display = "block ";
+  baliseEnvoyer.forEach((buttonenvoyer) => {
+    if (baliseEnvoyer) {
+      buttonenvoyer.addEventListener("click", () => {
+        // 1) recuperer class de l'input qui contient l'id du produit e qui est egal a id du button.id
+        let quantite = document.getElementsByClassName(
+          `quantite ${buttonenvoyer.id}`
+        )[0].value;
+        quantite = parseInt(quantite);
+        if (!isNaN(quantite) && quantite > 0) {
+          try {
+            let panier = JSON.parse(localStorage.getItem("panier")) || [];
 
-  // 				document.dispatchEvent(new CustomEvent("panierChange"));
+            let platPanier = panier.find((plat) => plat.id == buttonenvoyer.id);
 
-  // 				// Masquer le message après 3 secondes
-  // 				setTimeout(() => {
-  // 					messageConfirmation.style.display = "none";
-  // 				}, 3000);
+            let platsseul = plats.find((plat) => plat.id == buttonenvoyer.id);
 
-  // 				// return Plat(element);
-  // 			} catch (e) {
-  // 				console.error("Erreur lors de la manipulation du panier", e);
-  // 			}
-  // 		}
-  // 	});
-  // }
-  // }
+            if (platPanier) {
+              platPanier.quantite += quantite;
+            } else {
+              panier.push({ ...platsseul, quantite });
+            }
+            localStorage.setItem("panier", JSON.stringify(panier));
+
+            // Afficher un message de confirmation
+            let messageConfirmation = document.getElementsByClassName(
+              `messageConfirmation ${buttonenvoyer.id}`
+            )[0];
+
+            messageConfirmation.innerHTML =
+              "Le plat a bien été ajouté à votre panier.";
+            messageConfirmation.style.display = "block";
+
+            document.dispatchEvent(new CustomEvent("panierChange"));
+            console.log(panier);
+
+            // Masquer le message après 3 secondes
+            setTimeout(() => {
+              messageConfirmation.style.display = "none";
+            }, 3000);
+
+            // return Plat(element);
+          } catch (e) {
+            console.error("Erreur lors de la manipulation du panier", e);
+          }
+        }
+      });
+    } else {
+      console.error(
+        "Les éléments avec les IDs 'quantite' et 'envoyer' n'ont pas été trouvés."
+      );
+    }
+  });
 };
-{
-  /* <p class="presentation"><input id="quantite"  type="number" name="quantity" value="1" min="1" max="10">
-      <button id="envoyer" class="btn btn-success presentation">Ajouter au panier</button></p>
-			<div id="messageConfirmation" style="color: lime; "></div> */
-}
