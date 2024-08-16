@@ -39,6 +39,7 @@ export const PlatCard = (plat) => {
   return `
     <div class="col p-2">
 		<div class="card card-body">
+    <a class="card plat-link" href="/repas?id=${plat.id}">
 			<h5 class="card-title carte text-dark text-center text-decoration-underline">${
         plat.nom
       }</h5>
@@ -52,6 +53,7 @@ export const PlatCard = (plat) => {
 			<p id="${
         plat.id
       }" class="presentation p text-center text-dark ">${plat.prix.toString()} €</p>
+      </a>
 			<p class="presentation text-dark">
       <input class="quantite ${
         plat.id
@@ -61,6 +63,7 @@ export const PlatCard = (plat) => {
       }" class="btn btn-success envoyer presentation">Ajouter au panier</button></p>
 			<div class="messageConfirmation ${plat.id}" style="color: lime; "></div>
 			</div>
+      
 		</div>
 
     `;

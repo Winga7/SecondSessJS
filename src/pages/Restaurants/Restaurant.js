@@ -10,7 +10,7 @@ import { PlatCard } from "./Partials/RestaurantsCard";
  * @returns {void}
  */
 
-function escapeHTML(str) {
+export function escapeHTML(str) {
   return str.replace(
     /[&<>'"]/g,
     (tag) =>
