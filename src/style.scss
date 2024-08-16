@@ -121,10 +121,14 @@ nav {
 	height: 17em !important;
 }
 
-// Restaurantcard
+// Restaurantcard & PlatCard
 
 .restaurant-link, .plat-link{
 	text-decoration: none;
+}
+
+.plat-link{
+	border: 0;
 }
 
 .description {
@@ -135,6 +139,10 @@ nav {
     line-clamp: 2; 
   	-webkit-box-orient: vertical;
 }	
+
+.platimg{
+	object-position: 100% 100%;
+}
 
 // RestaurantRow
 
@@ -161,10 +169,10 @@ nav {
 	
 }
 
-.presentation{
-	display: flex;
-	justify-content: center;
-}
+// .presentation{
+// 	display: flex;
+// 	justify-content: center;
+// }
 
 #prix {
 	font-weight: bold;

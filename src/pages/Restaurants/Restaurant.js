@@ -36,20 +36,28 @@ export const Restaurant = (element) => {
   // si le restaurant n'existe pas, on affiche un message d'erreur
   // if (restaurant && restaurant.nom && restaurant.photo && restaurant.description && restaurant.prix && restaurant.catégorie) {
   element.innerHTML = `
-      <h1 class="presentation">${escapeHTML(restaurant.nom)}</h1>
-      <figure class="presentation">
-      <img src="${escapeHTML(
-        restaurant.photo
-      )}" id="affiche" class="card-img-top" alt="${escapeHTML(restaurant.nom)}">
-      </figure>
-      <p class="presentation">${escapeHTML(restaurant.description)}</p>
-
-      <p class="presentation">${CategorieBadge(
-        escapeHTML(restaurant.catégorie)
-      )}</p>
-
-  <div id="plats-list"></div>
-
+    <div class="presentation d-flex flex-column align-items-center">
+      <div class="d-flex">
+        <figure class="text-center">
+          <img src="${escapeHTML(
+            restaurant.photo
+          )}" id="affiche" class="card-img-top" alt="${escapeHTML(
+    restaurant.nom
+  )}">
+        </figure>
+        <div>
+          <div class="d-flex"> 
+            <h1 class="">${escapeHTML(restaurant.nom)}</h1>
+            <p class="">${CategorieBadge(
+              restaurant.catégorie,
+              restaurant.nomCatégorie
+            )}</p>
+          </div>
+          <p class="text-justify">${escapeHTML(restaurant.description)}</p>
+        </div>
+      </div>
+      <div id="plats-list"></div>
+    </div>  
 			
     `;
   const platsList = element.querySelector("#plats-list");

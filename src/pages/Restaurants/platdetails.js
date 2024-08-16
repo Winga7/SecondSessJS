@@ -27,7 +27,10 @@ export const Repas = (element) => {
       </figure>
       <p class="presentation">${escapeHTML(plat.description)}</p>
 
-      <p class="presentation">${CategorieBadge(escapeHTML(plat.catégorie))}</p>
+      <p class="presentation">${CategorieBadge(
+        plat.catégorie,
+        plat.nomCatégorie
+      )}</p>
       <p class="presentation">${plat.prix.toFixed(2)} €</p>
 
   <div id="repas-list"></div>

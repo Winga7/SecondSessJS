@@ -24,9 +24,9 @@ export const Nav = (element) => {
    */
   const links = [
     { href: "/", text: "Accueil" },
-    { href: "/contact", text: "Contact" },
     { href: "/restaurants", text: "Restaurants" },
-    { href: "/panier", text: "Panier" },
+    { href: "/contact", text: "Contact" },
+    // { href: "/panier", text: "Panier" },
   ];
 
   const { panier } = recupPanier();

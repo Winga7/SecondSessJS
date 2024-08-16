@@ -1,184 +1,204 @@
 [
 	{
-		"id": 1,
-		"restaurantsid": 1,
-		"nom": "Giant Burger",
-		"photo": "./img/plats/Giant.jpg",
-		"description": "Le Giant est le burger emblématique du Quick. Il est composé de deux steaks hachés, de fromage fondu, de salade, de cornichons et de sauce Giant.",
-		"prix": 5.50,
-		"catégorie": "Burger"
-	},
-	{
-		"id": 2,
-		"restaurantsid": 1,
-		"nom": "Cheese Burger",
-		"photo": "./img/plats/cheese.jpg",
-		"description": "Un hamburger avec fromage fondu, oignon, cornichon, ketchup et moutarde.",
-		"prix": 3.50,
-		"catégorie":"Burger"
-	},
-	{
-		"id": 3,
-		"restaurantsid": 1,
-		"nom": "Chicken Dip's",
-		"photo": "./img/plats/chickendips.jpg",
-		"description": "Des morceaux de poulet panés, accompagnés d'une sauce au choix. Disponible en portions de 7 pièces.",
-		"prix": 4.50,
-		"catégorie":"Finger Food"
-	},
-	{
-		"id": 4,
-		"restaurantsid": 1,
-		"nom": "Fish Burger",
-		"photo": "./img/plats/fishburger.jpg",
-		"description": "Un hamburger avec un filet de poisson pané, de la salade, de la sauce tartare et du citron.",
-		"prix": 4.00,
-		"catégorie":"Burger"
-	},
-	{
-		"id": 5,
-		"restaurantsid": 1,
-		"nom": "Frites",
-		"photo": "./img/plats/frites.png",
-		"description": "Des frites croustillantes, à accompagner d'une sauce au choix. Disponible en petites, moyennes ou grandes portions. Nouveau : les frites au fromage ou au bacon!",
-		"prix": 2.00,
-		"catégorie":"Accompagnement"
-	},
-	{
-		"id": 6,
-		"restaurantsid": 1,
-		"nom": "Salade",
-		"photo": "./img/plats/salade.jpg",
-		"description": "Une salade composée de laitue, de tomates, de concombre, de carottes, de maïs et de croûtons. Disponible en petite ou grande portion. Nouveau : la salade Caesar!",
-		"prix": 3.00,
-		"catégorie":"Accompagnement"
-	},
-	{
-		"id": 7,
-		"restaurantsid": 1,
-		"nom": "Sundae",
-		"photo": "./img/plats/sundae.jpg",
-		"description": "Une coupe de glace vanille, nappée de sauce au choix et de morceaux de chocolat ou de fruits. Disponible en petite, moyenne ou grande portion.",
-		"prix": 2.50,
-		"catégorie":"Dessert"
-	},
-	{
-		"id": 8,
-		"restaurantsid": 1,
-		"nom": "Milk Shake",
-		"photo": "./img/plats/milkshake.jpg",
-		"description": "Un milk shake à la vanille, au chocolat ou à la fraise. Disponible en petite, moyenne ou grande portion.",
-		"prix": 2.50,
-		"catégorie":"Dessert"
-	},
-	{
-		"id": 9,
-		"restaurantsid": 2,
-		"nom": "Sushi crevette",
-		"photo": "./img/plats/sushicrevette.jpg",
-		"description": "Sushi garni de crevette, de riz vinaigré et d'algue nori. (2 pièces)",
-		"prix": 3.00,
-		"catégorie":"Sushi"
-	},
-	{
-		"id": 10,
-		"restaurantsid": 2,
-		"nom": "Maki au saumon",
-		"photo": "./img/plats/maki-saumon.jpg",
-		"description": "Des rouleaux de riz vinaigré, garnis de saumon cru et d'algue nori. (6 pièces)",
-		"prix": 4.00,
-		"catégorie":"Sushi"
-	},
-	{
-		"id": 11,
-		"restaurantsid": 2,
-		"nom": "Sashimi de thon",
-		"photo": "./img/plats/sashimithon.jpg",
-		"description": "Des tranches de poisson cru, accompagnées de wasabi et de sauce soja. (4 pièces)",
-		"prix": 5.00,
-		"catégorie":"Sushi"
-	},
-	{
-		"id": 12,
-		"restaurantsid": 2,
-		"nom": "Tempura",
-		"photo": "./img/plats/tempura-crevettes.jpg",
-		"description": "Des beignets de fruits de mer, accompagnés de sauce soja. (4 pièces)",
-		"prix": 4.50,
-		"catégorie":"Sushi"
-	},
-	{
-		"id": 13,
-		"restaurantsid": 2,
-		"nom": "Ramen Tonkatsu",
-		"photo": "./img/plats/Tonkotsu-Ramen-2.jpg",
-		"description": "Un bol de nouilles japonaises, garni de légumes, de viande de porc et d'un oeuf mollet.",
-		"prix": 15.00,
-		"catégorie":"Ramen"
-	},
-	{
-		"id": 14,
-		"restaurantsid": 3,
-		"nom": "Pizza Margherita",
-		"photo": "./img/plats/margherita.jpg",
-		"description": "Une pizza garnie de tomates, de mozzarella, de basilic et d'huile d'olive.",
-		"prix": 8.00,
-		"catégorie":"Pizza"
-	},
-	{
-		"id": 15,
-		"restaurantsid": 3,
-		"nom": "Pizza 4 fromages",
-		"photo": "./img/plats/4fromages.jpeg",
-		"description": "Une pizza garnie de mozzarella, de gorgonzola, de chèvre et de parmesan.",
-		"prix": 10.00,
-		"catégorie":"Pizza"
-	},
-	{
-		"id": 16,
-		"restaurantsid": 3,
-		"nom": "Pizza Calzone",
-		"photo": "./img/plats/calzone.jpg",
-		"description": "Une pizza fermée, garnie de jambon, de champignons, de mozzarella et de tomates.",
-		"prix": 9.00,
-		"catégorie":"Pizza"
-	},
-	{
-		"id": 17,
-		"restaurantsid": 3,
-		"nom": "Pizza Végétarienne",
-		"photo": "./img/plats/vegetarienne.jpg",
-		"description": "Une pizza garnie de poivrons, d'oignons, de champignons, d'olives et de tomates.",
-		"prix": 9.00,
-		"catégorie":"Pizza"
-	},
-	{
-		"id": 19,
-		"restaurantsid": 3,
-		"nom": "Pizza Royale",
-		"photo": "./img/plats/royale.jpg",
-		"description": "Une pizza garnie de jambon, de champignons, de poivrons, d'olives, de mozzarella et de tomates.",
-		"prix": 10.00,
-		"catégorie":"Pizza"
-	},
-	{
-		"id": 20,
-		"restaurantsid": 3,
-		"nom": "Pizza Pepperoni",
-		"photo": "./img/plats/pepperoni.jpg",
-		"description": "Une pizza garnie de pepperoni, de mozzarella et de tomates.",
-		"prix": 8.00,
-		"catégorie":"Pizza"
-	},
-	{
-		"id": 21,
-		"restaurantsid": 3,
-		"nom": "Lasagne",
-		"photo": "./img/plats/lasagne.jpg",
-		"description": "Des lasagnes à la bolognaise, gratinées au four. Possibilité de lasagnes végétariennes.",
-		"prix": 12.00,
-		"catégorie":"Pâtes"
-	},
+    "id": 1,
+    "restaurantsid": 1,
+    "nom": "Giant Burger",
+    "photo": "./img/plats/Giant.jpg",
+    "description": "Le Giant est le burger emblématique du Quick. Il est composé de deux steaks hachés, de fromage fondu, de salade, de cornichons et de sauce Giant.",
+    "prix": 5.50,
+    "nomCatégorie": "Burger",
+    "catégorie": "Burger"
+  },
+  {
+    "id": 2,
+    "restaurantsid": 1,
+    "nom": "Cheese Burger",
+    "photo": "./img/plats/cheese.jpg",
+    "description": "Un hamburger avec fromage fondu, oignon, cornichon, ketchup et moutarde.",
+    "prix": 3.50,
+    "nomCatégorie": "Burger",
+    "catégorie": "Burger"
+  },
+  {
+    "id": 3,
+    "restaurantsid": 1,
+    "nom": "Chicken Dip's",
+    "photo": "./img/plats/chickendips.jpg",
+    "description": "Des morceaux de poulet panés, accompagnés d'une sauce au choix. Disponible en portions de 7 pièces.",
+    "prix": 4.50,
+    "nomCatégorie": "Finger Food",
+    "catégorie": "Finger_Food"
+  },
+  {
+    "id": 4,
+    "restaurantsid": 1,
+    "nom": "Fish Burger",
+    "photo": "./img/plats/fishburger.jpg",
+    "description": "Un hamburger avec un filet de poisson pané, de la salade, de la sauce tartare et du citron.",
+    "prix": 4.00,
+    "nomCatégorie": "Burger",
+    "catégorie": "Burger"
+  },
+  {
+    "id": 5,
+    "restaurantsid": 1,
+    "nom": "Frites",
+    "photo": "./img/plats/frites.png",
+    "description": "Des frites croustillantes, à accompagner d'une sauce au choix. Disponible en petites, moyennes ou grandes portions. Nouveau : les frites au fromage ou au bacon!",
+    "prix": 2.00,
+    "nomCatégorie": "Accompagnement",
+    "catégorie": "Accompagnement"
+  },
+  {
+    "id": 6,
+    "restaurantsid": 1,
+    "nom": "Salade",
+    "photo": "./img/plats/salade.jpg",
+    "description": "Une salade composée de laitue, de tomates, de concombre, de carottes, de maïs et de croûtons. Disponible en petite ou grande portion. Nouveau : la salade Caesar!",
+    "prix": 3.00,
+    "nomCatégorie": "Accompagnement",
+    "catégorie": "Accompagnement"
+  },
+  {
+    "id": 7,
+    "restaurantsid": 1,
+    "nom": "Sundae",
+    "photo": "./img/plats/sundae.jpg",
+    "description": "Une coupe de glace vanille, nappée de sauce au choix et de morceaux de chocolat ou de fruits. Disponible en petite, moyenne ou grande portion.",
+    "prix": 2.50,
+    "nomCatégorie": "Dessert",
+    "catégorie": "Dessert"
+  },
+  {
+    "id": 8,
+    "restaurantsid": 1,
+    "nom": "Milk Shake",
+    "photo": "./img/plats/milkshake.jpg",
+    "description": "Un milk shake à la vanille, au chocolat ou à la fraise. Disponible en petite, moyenne ou grande portion.",
+    "prix": 2.50,
+    "nomCatégorie": "Dessert",
+    "catégorie": "Dessert"
+  },
+  {
+    "id": 9,
+    "restaurantsid": 2,
+    "nom": "Sushi crevette",
+    "photo": "./img/plats/sushicrevette.jpg",
+    "description": "Sushi garni de crevette, de riz vinaigré et d'algue nori. (2 pièces)",
+    "prix": 3.00,
+    "nomCatégorie": "Sushi",
+    "catégorie": "Sushi"
+  },
+  {
+    "id": 10,
+    "restaurantsid": 2,
+    "nom": "Maki au saumon",
+    "photo": "./img/plats/maki-saumon.jpg",
+    "description": "Des rouleaux de riz vinaigré, garnis de saumon cru et d'algue nori. (6 pièces)",
+    "prix": 4.00,
+    "nomCatégorie": "Sushi",
+    "catégorie": "Sushi"
+  },
+  {
+    "id": 11,
+    "restaurantsid": 2,
+    "nom": "Sashimi de thon",
+    "photo": "./img/plats/sashimithon.jpg",
+    "description": "Des tranches de poisson cru, accompagnées de wasabi et de sauce soja. (4 pièces)",
+    "prix": 5.00,
+    "nomCatégorie": "Sushi",
+    "catégorie": "Sushi"
+  },
+  {
+    "id": 12,
+    "restaurantsid": 2,
+    "nom": "Tempura",
+    "photo": "./img/plats/tempura-crevettes.jpg",
+    "description": "Des beignets de fruits de mer, accompagnés de sauce soja. (4 pièces)",
+    "prix": 4.50,
+    "nomCatégorie": "Sushi",
+    "catégorie": "Sushi"
+  },
+  {
+    "id": 13,
+    "restaurantsid": 2,
+    "nom": "Ramen Tonkatsu",
+    "photo": "./img/plats/Tonkotsu-Ramen-2.jpg",
+    "description": "Un bol de nouilles japonaises, garni de légumes, de viande de porc et d'un oeuf mollet.",
+    "prix": 15.00,
+    "nomCatégorie": "Ramen",
+    "catégorie": "Ramen"
+  },
+  {
+    "id": 14,
+    "restaurantsid": 3,
+    "nom": "Pizza Margherita",
+    "photo": "./img/plats/margherita.jpg",
+    "description": "Une pizza garnie de tomates, de mozzarella, de basilic et d'huile d'olive.",
+    "prix": 8.00,
+    "nomCatégorie": "Pizza",
+    "catégorie": "Pizza"
+  },
+  {
+    "id": 15,
+    "restaurantsid": 3,
+    "nom": "Pizza 4 fromages",
+    "photo": "./img/plats/4fromages.jpeg",
+    "description": "Une pizza garnie de mozzarella, de gorgonzola, de chèvre et de parmesan.",
+    "prix": 10.00,
+    "nomCatégorie": "Pizza",
+    "catégorie": "Pizza"
+  },
+  {
+    "id": 16,
+    "restaurantsid": 3,
+    "nom": "Pizza Calzone",
+    "photo": "./img/plats/calzone.jpg",
+    "description": "Une pizza fermée, garnie de jambon, de champignons, de mozzarella et de tomates.",
+    "prix": 9.00,
+    "nomCatégorie": "Pizza",
+    "catégorie": "Pizza"
+  },
+  {
+    "id": 17,
+    "restaurantsid": 3,
+    "nom": "Pizza Végétarienne",
+    "photo": "./img/plats/vegetarienne.jpg",
+    "description": "Une pizza garnie de poivrons, d'oignons, de champignons, d'olives et de tomates.",
+    "prix": 9.00,
+    "nomCatégorie": "Pizza",
+    "catégorie": "Pizza"
+  },
+  {
+    "id": 19,
+    "restaurantsid": 3,
+    "nom": "Pizza Royale",
+    "photo": "./img/plats/royale.jpg",
+    "description": "Une pizza garnie de jambon, de champignons, de poivrons, d'olives, de mozzarella et de tomates.",
+    "prix": 10.00,
+    "nomCatégorie": "Pizza",
+    "catégorie": "Pizza"
+  },
+  {
+    "id": 20,
+    "restaurantsid": 3,
+    "nom": "Pizza Pepperoni",
+    "photo": "./img/plats/pepperoni.jpg",
+    "description": "Une pizza garnie de pepperoni, de mozzarella et de tomates.",
+    "prix": 8.00,
+    "nomCatégorie": "Pizza",
+    "catégorie": "Pizza"
+  },
+  {
+    "id": 21,
+    "restaurantsid": 3,
+    "nom": "Lasagne",
+    "photo": "./img/plats/lasagne.jpg",
+    "description": "Des lasagnes à la bolognaise, gratinées au four. Possibilité de lasagnes végétariennes.",
+    "prix": 12.00,
+    "nomCatégorie": "Pâte",
+    "catégorie": "Pâte"
+  },
 	{
 		"id": 22,
 		"restaurantsid": 3,
@@ -186,6 +206,7 @@
 		"photo": "./img/plats/tiramisu.jpg",
 		"description": "Un dessert italien à base de mascarpone, de café et de biscuits.",
 		"prix": 5.00,
+		"nomCatégorie": "Dessert",
 		"catégorie":"Dessert"
 	},
 	{
@@ -195,151 +216,168 @@
 		"photo": "./img/plats/pouletroti.jpg",
 		"description": "Un demi-poulet rôti, accompagné de frites et de salade.",
 		"prix": 10.00,
-		"catégorie":"Plat Principal"
-	},
-	{
+		"nomCatégorie": "Plat Principal",
+		"catégorie": "Plat_Principal"
+},
+{
 		"id": 24,
 		"restaurantsid": 4,
 		"nom": "Côte de boeuf",
 		"photo": "./img/plats/cotedeboeuf.jpg",
 		"description": "Une côte de boeuf grillée, accompagnée de frites et de salade.",
 		"prix": 15.00,
-		"catégorie":"Plat Principal"
-	},
-	{
+		"nomCatégorie": "Plat Principal",
+		"catégorie": "Plat_Principal"
+},
+{
 		"id": 25,
 		"restaurantsid": 4,
 		"nom": "Salade César",
 		"photo": "./img/plats/saladecesar.jpg",
 		"description": "Une salade composée de laitue, de poulet grillé, de croûtons, de parmesan et de sauce Caesar.",
 		"prix": 8.00,
-		"catégorie":"Salade"
-	},
-	{
+		"nomCatégorie": "Salade",
+		"catégorie": "Salade"
+},
+{
 		"id": 26,
 		"restaurantsid": 4,
 		"nom": "Coquillettes au beurre et jambon",
 		"photo": "./img/plats/carbonara.jpg",
 		"description": "Des coquillettes cuites al dente, servies avec du beurre, du jambon et du gruyère râpé.",
 		"prix": 8.00,
-		"catégorie":"Pâtes"
-	},
-	{
+		"nomCatégorie": "Pâtes",
+		"catégorie": "Pâtes"
+},
+{
 		"id": 27,
 		"restaurantsid": 4,
 		"nom": "Tarte aux pommes",
 		"photo": "./img/plats/tarteauxpommes.jpg",
 		"description": "Une tarte aux pommes, servie tiède avec une boule de glace vanille.",
 		"prix": 5.00,
-		"catégorie":"Dessert"
-	},
-	{
+		"nomCatégorie": "Dessert",
+		"catégorie": "Dessert"
+},
+{
 		"id": 28,
 		"restaurantsid": 4,
 		"nom": "Crème brûlée",
 		"photo": "./img/plats/crembrulee.jpeg",
 		"description": "Un dessert à base de crème vanillée, caramélisée au chalumeau.",
 		"prix": 6.00,
-		"catégorie":"Dessert"
-	},
-	{
+		"nomCatégorie": "Dessert",
+		"catégorie": "Dessert"
+},
+{
 		"id": 29,
 		"restaurantsid": 4,
 		"nom": "Boeuf Bourguignon",
 		"photo": "./img/plats/boeufbourguignon.jpg",
 		"description": "Un plat traditionnel à base de boeuf mijoté, de carottes et de champignons.",
 		"prix": 16.00,
-		"catégorie":"Plat Principal"
-	},
-	{
+		"nomCatégorie": "Plat Principal",
+		"catégorie": "Plat_Principal"
+},
+{
 		"id": 30,
 		"restaurantsid": 4,
 		"nom": "Escargots de Bourgogne",
 		"photo": "./img/plats/escargots.jpg",
 		"description": "Des escargots cuits au beurre persillé, servis dans leur coquille.",
 		"prix": 14.00,
-		"catégorie":"Entrée"
-	},
-	{
+		"nomCatégorie": "Entrée",
+		"catégorie": "Entrée"
+},
+{
 		"id": 31,
 		"restaurantsid": 5,
 		"nom": "Tajiin de poulet",
 		"photo": "./img/plats/tajinepoulet.jpeg",
 		"description": "Un tajine de poulet aux olives et citrons confits, accompagné de semoule.",
 		"prix": 12.00,
-		"catégorie":"Plat Principal"
-	},
-	{
+		"nomCatégorie": "Plat Principal",
+		"catégorie": "Plat_Principal"
+},
+{
 		"id": 32,
 		"restaurantsid": 5,
 		"nom": "Couscous royal",
 		"photo": "./img/plats/couscousroyal.jpeg",
 		"description": "Un couscous garni de poulet, de merguez et de boulettes de viande.",
 		"prix": 14.00,
-		"catégorie":"Plat Principal"
-	},
-	{
+		"nomCatégorie": "Plat Principal",
+		"catégorie": "Plat_Principal"
+},
+{
 		"id": 33,
 		"restaurantsid": 5,
 		"nom": "Pastilla",
 		"photo": "./img/plats/pastilla.jpeg",
 		"description": "Une pastilla au poulet, aux amandes et aux épices.",
 		"prix": 10.00,
-		"catégorie":"Plat Principal"
+		"nomCatégorie": "Plat Principal",
+		"catégorie": "Plat_Principal"
 },
 {
-	"id": 34,
-	"restaurantsid": 1,
-	"nom": "Chicken Burger",
-	"photo": "./img/plats/chicken.jpg",
-	"description": "Un hamburger avec un filet de poulet pané, de la salade, de la sauce mayonnaise et du citron.",
-	"prix": 4.00,
-	"catégorie":"Burger"
+		"id": 34,
+		"restaurantsid": 1,
+		"nom": "Chicken Burger",
+		"photo": "./img/plats/chicken.jpg",
+		"description": "Un hamburger avec un filet de poulet pané, de la salade, de la sauce mayonnaise et du citron.",
+		"prix": 4.00,
+		"nomCatégorie": "Burger",
+		"catégorie": "Burger"
 },
 {
-	"id": 35,
-	"restaurantsid": 2,
-	"nom": "Sushi saumon",
-	"photo": "./img/plats/sushisaumon.jpeg",
-	"description": "Sushi garni de saumon, de riz vinaigré et d'algue nori. (2 pièces)",
-	"prix": 3.00,
-	"catégorie":"Sushi"
+		"id": 35,
+		"restaurantsid": 2,
+		"nom": "Sushi saumon",
+		"photo": "./img/plats/sushisaumon.jpeg",
+		"description": "Sushi garni de saumon, de riz vinaigré et d'algue nori. (2 pièces)",
+		"prix": 3.00,
+		"nomCatégorie": "Sushi",
+		"catégorie": "Sushi"
 },
 {
-	"id": 36,
-	"restaurantsid": 2,
-	"nom": "Maki au thon",
-	"photo": "./img/plats/maki-thon.jpg",
-	"description": "Des rouleaux de riz vinaigré, garnis de thon cru et d'algue nori. (6 pièces)",
-	"prix": 4.00,
-	"catégorie":"Sushi"
+		"id": 36,
+		"restaurantsid": 2,
+		"nom": "Maki au thon",
+		"photo": "./img/plats/maki-thon.jpg",
+		"description": "Des rouleaux de riz vinaigré, garnis de thon cru et d'algue nori. (6 pièces)",
+		"prix": 4.00,
+		"nomCatégorie": "Sushi",
+		"catégorie": "Sushi"
 },
 {
-	"id": 37,
-	"restaurantsid": 2,
-	"nom": "Temaki à l'anguille",
-	"photo": "./img/plats/temakianguille.jpg",
-	"description": "Un cône de riz vinaigré, garni d'anguille grillée, d'avocat et de sauce teriyaki.",
-	"prix": 5.00,
-	"catégorie":"Sushi"
+		"id": 37,
+		"restaurantsid": 2,
+		"nom": "Temaki à l'anguille",
+		"photo": "./img/plats/temakianguille.jpg",
+		"description": "Un cône de riz vinaigré, garni d'anguille grillée, d'avocat et de sauce teriyaki.",
+		"prix": 5.00,
+		"nomCatégorie": "Sushi",
+		"catégorie": "Sushi"
 },
 {
-	"id": 38,
-	"restaurantsid": 2,
-	"nom": "Ramen Shoyu",
-	"photo": "./img/plats/Shoyu-Ramen.jpg",
-	"description": "Un bol de nouilles japonaises, garni de légumes, de viande de poulet et d'un oeuf mollet.",
-	"prix": 14.00,
-	"catégorie":"Ramen"
+		"id": 38,
+		"restaurantsid": 2,
+		"nom": "Ramen Shoyu",
+		"photo": "./img/plats/Shoyu-Ramen.jpg",
+		"description": "Un bol de nouilles japonaises, garni de légumes, de viande de poulet et d'un oeuf mollet.",
+		"prix": 14.00,
+		"nomCatégorie": "Ramen",
+		"catégorie": "Ramen"
 },
 {
-	"id": 39,
-	"restaurantsid": 3,
-	"nom": "Pain à l'ail",
-	"photo": "./img/plats/painail.jpg",
-	"description": "Un pain garni de beurre à l'ail, de persil et de parmesan. 4 tranches.",
-	"prix": 4.00,
-	"catégorie":"Entrée"
+		"id": 39,
+		"restaurantsid": 3,
+		"nom": "Pain à l'ail",
+		"photo": "./img/plats/painail.jpg",
+		"description": "Un pain garni de beurre à l'ail, de persil et de parmesan. 4 tranches.",
+		"prix": 4.00,
+		"nomCatégorie": "Entrée",
+		"catégorie": "Entrée"
 },
 {
 	"id": 40,
@@ -348,7 +386,8 @@
 	"photo": "./img/plats/cassoulet.jpeg",
 	"description": "Un cassoulet à la saucisse de Toulouse, au confit de canard et aux haricots blancs.",
 	"prix": 15.00,
-	"catégorie":"Plat Principal"
+	"nomCatégorie": "Plat Principal",
+	"catégorie": "Plat_Principal"
 },
 {
 	"id": 41,
@@ -357,7 +396,8 @@
 	"photo": "./img/plats/harira.jpeg",
 	"description": "Une soupe marocaine à base de tomates, de lentilles, de pois chiches et de coriandre.",
 	"prix": 6.00,
-	"catégorie":"Soupe"
+	"nomCatégorie": "Soupe",
+	"catégorie": "Soupe"
 },
 {
 	"id": 42,
@@ -366,7 +406,8 @@
 	"photo": "./img/plats/mechoui.jpg",
 	"description": "Un agneau entier rôti à la broche, servi avec des légumes grillés et de la semoule.",
 	"prix": 20.00,
-	"catégorie":"Plat Principal"
+	"nomCatégorie": "Plat Principal",
+	"catégorie": "Plat_Principal"
 },
 {
 	"id": 43,
@@ -375,7 +416,8 @@
 	"photo": "./img/plats/msemen.jpeg",
 	"description": "Une crêpe marocaine feuilletée, garnie de miel, de beurre et d'amandes.",
 	"prix": 5.00,
-	"catégorie":"Dessert"
+	"nomCatégorie": "Dessert",
+	"catégorie": "Dessert"
 },
 {
 	"id": 44,
@@ -384,7 +426,8 @@
 	"photo": "./img/plats/thementhe.jpg",
 	"description": "Un thé vert à la menthe, servi chaud et sucré.",
 	"prix": 2.00,
-	"catégorie":"Boisson"
+	"nomCatégorie": "Boisson",
+	"catégorie": "Boisson"
 },
 {
 	"id": 45,
@@ -393,7 +436,8 @@
 	"photo": "./img/plats/kefta.jpeg",
 	"description": "Des boulettes de viande hachée, grillées et servies avec des légumes et de la semoule.",
 	"prix": 12.00,
-	"catégorie":"Plat Principal"
+	"nomCatégorie": "Plat Principal",
+	"catégorie": "Plat_Principal"
 },
 {
 	"id": 46,
@@ -402,7 +446,8 @@
 	"photo": "./img/plats/taboule.jpg",
 	"description": "Une salade de persil, de tomates, de concombres, de menthe et de boulgour.",
 	"prix": 6.00,
-	"catégorie":"Salade"
+	"nomCatégorie": "Salade",
+	"catégorie": "Salade"
 },
 {
 	"id": 47,
@@ -411,7 +456,8 @@
 	"photo": "./img/plats/bicmac.png",
 	"description": "Le Big Mac est le burger emblématique de Mc'Donald. Il est composé de deux steaks hachés, de fromage fondu, de salade, de cornichons et de sauce Big Mac.",
 	"prix": 5.50,
-	"catégorie":"Burger"
+	"nomCatégorie": "Burger",
+	"catégorie": "Burger"
 },
 {
 	"id": 48,
@@ -420,7 +466,8 @@
 	"photo": "./img/plats/mccrispy.jpg",
 	"description": "Un burger au poulet croustillant, garni de salade, de tomates, de bacon et de sauce samuraï.",
 	"prix": 6.00,
-	"catégorie":"Burger"
+	"nomCatégorie": "Burger",
+	"catégorie": "Burger"
 },
 {
 	"id": 49,
@@ -429,7 +476,8 @@
 	"photo": "./img/plats/royalcrispy.png",
 	"description": "Un burger au boeuf croustillant, garni de salade, de tomates, de bacon et de sauce barbecue.",
 	"prix": 6.00,
-	"catégorie":"Burger"
+	"nomCatégorie": "Burger",
+	"catégorie": "Burger"
 },
 {
 	"id": 50,
@@ -438,7 +486,8 @@
 	"photo": "./img/plats/nuggets.jpg",
 	"description": "Des morceaux de poulet panés, accompagnés d'une sauce au choix. Disponible en portions de 6 pièces.",
 	"prix": 4.50,
-	"catégorie":"Finger Food"
+	"nomCatégorie": "Finger Food",
+	"catégorie": "Finger_Food"
 },
 {
 	"id": 51,
@@ -447,7 +496,8 @@
 	"photo": "./img/plats/fritesmcdo.png",
 	"description": "Des frites croustillantes, à accompagner d'une sauce au choix. Disponible en petites, moyennes ou grandes portions.",
 	"prix": 3.00,
-	"catégorie":"Accompagnement"
+	"nomCatégorie": "Accompagnement",
+	"catégorie": "Accompagnement"
 },
 {
 	"id": 52,
@@ -456,7 +506,8 @@
 	"photo": "./img/plats/saladepoulet.png",
 	"description": "Une salade composée de laitue, de tomates, de concombre, de carottes, de poulet grillé et de sauce miel-moutarde.",
 	"prix": 5.00,
-	"catégorie":"Salade"
+	"nomCatégorie": "Salade",
+	"catégorie": "Salade"
 },
 {
 	"id": 53,
@@ -465,7 +516,8 @@
 	"photo": "./img/plats/veggie.jpg",
 	"description": "Un burger végétarien, garni de salade, de tomates, de fromage fondu et de sauce Big Mac.",
 	"prix": 5.50,
-	"catégorie":"Burger"
+	"nomCatégorie": "Burger",
+	"catégorie": "Burger"
 },
 {
 	"id": 54,
@@ -474,7 +526,8 @@
 	"photo": "./img/plats/mcflurry.png",
 	"description": "Une coupe de glace vanille, nappée de sauce au choix et de morceaux de chocolat ou de fruits.",
 	"prix": 3.00,
-	"catégorie":"Dessert"
+	"nomCatégorie": "Dessert",
+	"catégorie": "Dessert"
 },
 {
 	"id": 55,
@@ -483,7 +536,8 @@
 	"photo": "./img/plats/crispybox.png",
 	"description": "Un assortiment de 3 Tenders, 3 Wings, 9 Nuggets et 2 sauces au choix.",
 	"prix": 10.00,
-	"catégorie":"Finger Food"
+	"nomCatégorie": "Finger Food",
+	"catégorie": "Finger_Food"
 },
 {
 	"id": 56,
@@ -492,6 +546,7 @@
 	"photo": "./img/plats/mexicali.png",
 	"description": "Du poulet façon rôtisserie et du guacamole avec fromage mozza-cheddar râpés, maïs, poivrons, oignons rouges, concombres, tomates, salade et sauce au choix",
 	"prix": 7.00,
+	"nomCatégorie": "Sandwich",
 	"catégorie": "Sandwich"
 },
 {
@@ -501,6 +556,7 @@
 	"photo": "./img/plats/pastrami.png",
 	"description": "Une chiffonnade de bœuf au poivre et des tranches de dinde avec fromage américain, oignons frits, cornichons, tomates, salade et sauce au choix",
 	"prix": 8.00,
+	"nomCatégorie": "Sandwich",
 	"catégorie": "Sandwich"
 },
 {
@@ -510,6 +566,7 @@
 	"photo": "./img/plats/texan.jpeg",
 	"description": "Du Steakhouse, du bacon, double fromage, oignons caramélisés, cornichons, tomates, salade et sauce au choix",
 	"prix": 9.00,
+	"nomCatégorie": "Sandwich",
 	"catégorie": "Sandwich"
 },
 {
@@ -519,6 +576,7 @@
 	"photo": "./img/plats/ceasar.jpg",
 	"description": "Du poulet façon rôtisserie, du bacon, de l'avocat, du parmesan, des croûtons, de la salade et sauce Caesar",
 	"prix": 6.00,
+	"nomCatégorie": "Wrap",
 	"catégorie": "Wrap"
 },
 {
@@ -528,6 +586,7 @@
 	"photo": "./img/plats/steriyaki.jpg",
 	"description": "Du poulet mariné dans une sauce Teriyaki. Une délicieuse recette inspirée de la cuisine japonaise. Parfaite pour les adeptes du sucré-salé !",
 	"prix": 6.00,
+	"nomCatégorie": "Sandwich",
 	"catégorie": "Sandwich"
 },
 {
@@ -537,6 +596,7 @@
 	"photo": "./img/plats/steakcheese.png",
 	"description": "Sub cheesy & grillé : Jambon, salami,pepperoni, avec mozzarella et double dose de fromage américain, sauce Southwest , poivrons et oignons rouges. Une compo du chef chaude et fondante.",
 	"prix": 8.00,
+	"nomCatégorie": "Sandwich",
 	"catégorie": "Sandwich"
 },
 {
@@ -546,6 +606,7 @@
 	"photo": "./img/plats/cookies.jpeg",
 	"description": "Des cookies aux pépites de chocolat, à la noix de coco ou aux noix de pécan.",
 	"prix": 2.00,
+	"nomCatégorie": "Dessert",
 	"catégorie": "Dessert"
 },
 {
@@ -555,6 +616,7 @@
 	"photo": "./img/plats/bellamozza.jpeg",
 	"description": "Du poulet façon rôtisserie, du pepperoni, de la mozzarella, des copeaux de parmesan AOP, tomates, poivrons, oignons rouges, salade et sauce au choix (Pesto recommandée) L'inspi du chef aux couleurs de l'Italie.",
 	"prix": 7.00,
+	"nomCatégorie": "Sandwich",
 	"catégorie": "Sandwich"
 },
 {
@@ -564,6 +626,7 @@
 	"photo": "./img/plats/bmt.png",
 	"description": "Sub cheesy & grillé : Jambon, salami, pepperoni, avec mozzarella et double dose de fromage américain, sauce Southwest , poivrons et oignons rouges. Une compo du chef chaude et fondante.",
 	"prix": 8.00,
+	"nomCatégorie": "Sandwich",
 	"catégorie": "Sandwich"
 },
 {
@@ -573,6 +636,7 @@
 	"photo": "./img/plats/dpepperoni.jpg",
 	"description": "Une pizza garnie de pepperoni, de mozzarella et de tomates.",
 	"prix": 8.00,
+	"nomCatégorie": "Pizza",
 	"catégorie":"Pizza"
 },
 {
@@ -582,6 +646,7 @@
 	"photo": "./img/plats/dmargherita.jpg",
 	"description": "Une pizza garnie de tomates, de mozzarella, de basilic et d'huile d'olive.",
 	"prix": 8.00,
+	"nomCatégorie": "Pizza",
 	"catégorie":"Pizza"
 },
 {
@@ -591,6 +656,7 @@
 	"photo": "./img/plats/dextravaganza.jpg",
 	"description": "Une pizza garnie de pepperoni, de jambon, de champignons, de poivrons, d'olives, de mozzarella et de tomates.",
 	"prix": 10.00,
+	"nomCatégorie": "Pizza",
 	"catégorie":"Pizza"
 },
 {
@@ -600,6 +666,7 @@
 	"photo": "./img/plats/dhotspicy.jpg",
 	"description": "Une pizza garnie de pepperoni, de piments, de mozzarella et de tomates.",
 	"prix": 9.00,
+	"nomCatégorie": "Pizza",
 	"catégorie":"Pizza"
 },
 {
@@ -609,6 +676,7 @@
 	"photo": "./img/plats/dsavoyarde.jpg",
 	"description": "Une pizza garnie de lardons, de reblochon, de pommes de terre, de mozzarella et de crème fraîche.",
 	"prix": 10.00,
+	"nomCatégorie": "Pizza",
 	"catégorie":"Pizza"
 },
 {
@@ -618,6 +686,7 @@
 	"photo": "./img/plats/dtonno.png",
 	"description": "Une pizza garnie de thon, d'oignons, de câpres, de mozzarella et de tomates.",
 	"prix": 9.00,
+	"nomCatégorie": "Pizza",
 	"catégorie":"Pizza"
 },
 {
@@ -627,6 +696,7 @@
 	"photo": "./img/plats/kicknchickn.png",
 	"description": "Des morceaux de poulet panés epicés, accompagnés d'une sauce au choix. Disponible en portions de 6 pièces.",
 	"prix": 4.50,
+	"nomCatégorie": "Finger Food",
 	"catégorie":"Finger Food"
 },
 {
@@ -636,6 +706,7 @@
 	"photo": "./img/plats/cheesebread.png",
 	"description": "Un pain garni de fromage fondu, d'ail et de persil. 4 tranches.",
 	"prix": 4.00,
+	"nomCatégorie": "Entrée",
 	"catégorie":"Entrée"
 },
 {
@@ -645,6 +716,7 @@
 	"photo": "./img/plats/chickenitos.png",
 	"description": "Des morceaux de poulet panés, accompagnés de sauce au choix. Disponible en portions de 6 pièces.",
 	"prix": 4.50,
+	"nomCatégorie": "Finger Food",
 	"catégorie":"Finger Food"
 },
 {
@@ -654,6 +726,7 @@
 	"photo": "./img/plats/tacos_al_pastor.jpg",
 	"description": "Tortillas de maïs garnies de porc mariné, d'ananas, d'oignons et de coriandre.",
 	"prix": 12.50,
+	"nomCatégorie": "Plat Principal",
 	"catégorie": "Plat Principal"
 },
 {
@@ -663,6 +736,7 @@
 	"photo": "./img/plats/guacamole.jpg",
 	"description": "Avocats frais écrasés avec de la coriandre, de l'oignon, du jus de lime et des piments jalapeños.",
 	"prix": 7.00,
+	"nomCatégorie": "Entrée",
 	"catégorie": "Entrée"
 },
 {
@@ -672,6 +746,7 @@
 	"photo": "./img/plats/chiles_rellenos.jpg",
 	"description": "Piments poblano farcis de fromage ou de viande hachée, enrobés d'une pâte et frits.",
 	"prix": 14.00,
+	"nomCatégorie": "Plat Principal",
 	"catégorie": "Plat Principal"
 },
 {
@@ -681,6 +756,7 @@
 	"photo": "./img/plats/enchiladas_verdes.jpg",
 	"description": "Tortillas de maïs roulées et farcies de poulet, couvertes d'une sauce verte à base de tomatilles et de coriandre.",
 	"prix": 13.50,
+	"nomCatégorie": "Plat Principal",
 	"catégorie": "Plat Principal"
 },
 {
@@ -690,6 +766,7 @@
 	"photo": "./img/plats/quesadilla.jpg",
 	"description": "Tortillas de farine garnies de fromage fondu et d'autres ingrédients comme du poulet ou des légumes.",
 	"prix": 9.50,
+	"nomCatégorie": "Plat Principal",
 	"catégorie": "Plat Principal"
 },
 {
@@ -699,6 +776,7 @@
 	"photo": "./img/plats/pozole.jpg",
 	"description": "Soupe traditionnelle à base de maïs, de viande de porc, de laitue, de radis et de lime.",
 	"prix": 11.00,
+	"nomCatégorie": "Plat Principal",
 	"catégorie": "Plat Principal"
 },
 {
@@ -708,6 +786,7 @@
 	"photo": "./img/plats/sope_de_tortilla.jpg",
 	"description": "Soupe à la tomate garnie de morceaux de tortilla frits, de fromage, d'avocat et de crème.",
 	"prix": 8.00,
+	"nomCatégorie": "Entrée",
 	"catégorie": "Entrée"
 },
 {
@@ -717,6 +796,7 @@
 	"photo": "./img/plats/flan-mexicain.jpeg",
 	"description": "Dessert crémeux et aérien à base d'œufs, de lait et de caramel.",
 	"prix": 6.50,
+	"nomCatégorie": "Dessert",
 	"catégorie": "Dessert"
 },
 {
@@ -726,6 +806,7 @@
 	"photo": "./img/plats/churros.jpg",
 	"description": "Pâtisseries frites saupoudrées de sucre et de cannelle, servies avec une sauce au chocolat.",
 	"prix": 5.50,
+	"nomCatégorie": "Dessert",
 	"catégorie": "Dessert"
 }
 ]

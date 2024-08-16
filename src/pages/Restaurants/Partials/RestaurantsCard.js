@@ -23,12 +23,14 @@ export const RestaurantsCard = (restaurant) => {
             restaurant.nom
           }</h5>
           <figure>
-          <img src="${restaurant.photo}" class="card-img-top imgCard" alt="${
+          <img src="${
+            restaurant.photo
+          }" class="card-img-top object-fit-contain imgCard" alt="${
     restaurant.nom
   }">
           </figure>
           <p class="card-im carte description ">${restaurant.description} </p>
-          ${CategorieBadge(restaurant.catégorie)}
+          ${CategorieBadge(restaurant.catégorie, restaurant.nomCatégorie)}
         </div>
       </a>
     </div>
@@ -44,12 +46,16 @@ export const PlatCard = (plat) => {
         plat.nom
       }</h5>
 			<figure>
-				<img src="${plat.photo}" class="card-img-top imgCard" alt="${plat.nom}">
+				<img src="${
+          plat.photo
+        }" class="card-img-top object-fit-cover relative-top imgCard platimg" alt="${
+    plat.nom
+  }">
 			</figure>
 			<p class="card-im carte text-dark text-center description ">${
         plat.description
       }</p>
-      ${CategorieBadge(plat.catégorie)}
+      ${CategorieBadge(plat.catégorie, plat.nomCatégorie)}
 			<p id="${
         plat.id
       }" class="presentation p text-center text-dark ">${plat.prix.toString()} €</p>
