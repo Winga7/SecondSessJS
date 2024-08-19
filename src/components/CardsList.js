@@ -54,7 +54,7 @@ export const CardsList = (element, items, itemTemplate, searchableFields) => {
   };
 
   // Fonction pour filtrer et paginer les items
-  const filterAndPaginate = (perPage = 12) => {
+  const filterAndPaginate = (perPage = 6) => {
     const value = searchInputValue.toLowerCase();
     // On filtre les items en fonction de la valeur du champ de recherche
     // et des champs de recherche spécifiés
