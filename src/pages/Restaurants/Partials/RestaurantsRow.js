@@ -15,12 +15,14 @@ import { CategorieBadge } from "./CategorieBadge";
  * @returns {string} HTML string
  */
 export const RestaurantsRow = (restaurant) => {
-	return `
+  return `
     <tr>
       <td class="rowcarte">${restaurant.nom}</td>
       <td class="rowcarte">${restaurant.description}</td>
-      <td>${CategorieBadge(restaurant.catégorie)}</td>
-      <td><a class="btn btn-primary btn-sm" href="/restaurant?id=${restaurant.id}"><i class="ri-search-eye-line"></i></a></td>
+      <td>${CategorieBadge(restaurant.catégorie, restaurant.nomCatégorie)}</td>
+      <td><a class="btn btn-primary btn-sm" href="/restaurant?id=${
+        restaurant.id
+      }"><i class="ri-search-eye-line"></i></a></td>
     </tr>
     `;
 };

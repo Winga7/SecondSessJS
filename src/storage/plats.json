@@ -56,8 +56,8 @@
     "photo": "./img/plats/salade.jpg",
     "description": "Une salade composée de laitue, de tomates, de concombre, de carottes, de maïs et de croûtons. Disponible en petite ou grande portion. Nouveau : la salade Caesar!",
     "prix": 3.00,
-    "nomCatégorie": "Accompagnement",
-    "catégorie": "Accompagnement"
+    "nomCatégorie": "Salade",
+    "catégorie": "Salade"
   },
   {
     "id": 7,
@@ -314,7 +314,7 @@
 		"restaurantsid": 5,
 		"nom": "Pastilla",
 		"photo": "./img/plats/pastilla.jpeg",
-		"description": "Une pastilla au poulet, aux amandes et aux épices.",
+		"description": "Une pastilla au poulet, aux amandes et aux épices. Fais maison avec des amandes et du sucre glace.",
 		"prix": 10.00,
 		"nomCatégorie": "Plat Principal",
 		"catégorie": "Plat_Principal"
@@ -424,7 +424,7 @@
 	"restaurantsid": 5,
 	"nom": "Thé à la menthe",
 	"photo": "./img/plats/thementhe.jpg",
-	"description": "Un thé vert à la menthe, servi chaud et sucré.",
+	"description": "Un thé vert à la menthe, servi chaud et sucré. Disponible en petite ou grande tasse.",
 	"prix": 2.00,
 	"nomCatégorie": "Boisson",
 	"catégorie": "Boisson"
@@ -697,7 +697,7 @@
 	"description": "Des morceaux de poulet panés epicés, accompagnés d'une sauce au choix. Disponible en portions de 6 pièces.",
 	"prix": 4.50,
 	"nomCatégorie": "Finger Food",
-	"catégorie":"Finger Food"
+	"catégorie":"Finger_Food"
 },
 {
 	"id": 72,
@@ -717,7 +717,7 @@
 	"description": "Des morceaux de poulet panés, accompagnés de sauce au choix. Disponible en portions de 6 pièces.",
 	"prix": 4.50,
 	"nomCatégorie": "Finger Food",
-	"catégorie":"Finger Food"
+	"catégorie":"Finger_Food"
 },
 {
 	"id": 74,
