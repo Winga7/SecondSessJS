@@ -69,55 +69,95 @@ const EnleverPlat = (plat) => {
 export const Panier = (element) => {
   let { panier, total } = recupPanier();
   element.innerHTML = `
-	<h1 class="Panier">Panier</h1>
-	<table class="table">
-		<thead>
-			<tr>
-				<th scope="col" class="Panier">Nom</th>
-				<th scope="col" class="Panier">Prix unitaire</th>
-				<th scope="col" class="Panier">Quantité</th>
-				<th scope="col" class="Panier">Prix total</th>
-			</tr>
-		</thead>
-		<tbody>
-			${panier
-        .map(
-          (plat) => `
-				<tr>
-					<td class="Panier">${plat.nom}</td>
-					<td class="Panier">${plat.prix} €</td>
-					<td class="Panier">${plat.quantite}</td>
-					<td class="Panier">${plat.prix * plat.quantite} €</td>
-          <td class="Panier">
-            <button class="btn btn-primary ajouterProduit">+</button>
-            <button class="btn btn-danger enleverProduit">-</button>
-				</tr>
-			`
-        )
-        .join("")}
-		</tbody>
-	</table>
-	<p id="Total" >Total : <span>${total}</span> €</p>
-	<button id='supprimerPanier' class='btn btn-danger'>
-	Supprimer TOUT le Panier
-	</button>
-	`;
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Nom</th>
+          <th>Prix</th>
+          <th>Quantité</th>
+          <th>Total</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        ${panier
+          .map(
+            (plat) => `
+              <tr>
+                <td class="Panier">${plat.nom}</td>
+                <td class="Panier">${plat.prix} €</td>
+                <td class="Panier">${plat.quantite}</td>
+                <td class="Panier">${plat.prix * plat.quantite} €</td>
+                <td class="Panier">
+                  <button class="btn btn-primary ajouterProduit">+</button>
+                  <button class="btn btn-warning enleverProduit">-</button>
+                  <button class="btn btn-danger supprimerProduit">
+                    <i class="ri-delete-bin-line"></i>
+                  </button>
+                </td>
+              </tr>
+            `
+          )
+          .join("")}
+      </tbody>
+    </table>
+    <p id="Total">Total : <span>${total}</span> €</p>
+    <button id='supprimerPanier' class='btn btn-danger'>
+      Supprimer TOUT le Panier
+    </button>
+    <button id='confirmerCommande' class='btn btn-success' style='float: right;'>
+      Confirmer la commande
+    </button>
+  `;
+
   document.querySelector("#supprimerPanier").addEventListener("click", () => {
-    SupprimerPanier();
-    Panier(element); // Permet de mettre automatiquement à jour la page
+    if (confirm("Êtes-vous sûr de vouloir supprimer tout le panier ?")) {
+      SupprimerPanier();
+      Panier(element); // Permet de mettre automatiquement à jour la page
+      alert("Votre panier a bien été supprimé.");
+      document.dispatchEvent(new CustomEvent("panierChange"));
+    }
   });
+
+  document.querySelector("#confirmerCommande").addEventListener("click", () => {
+    const adresse = prompt("Veuillez entrer votre adresse de livraison :");
+    if (adresse) {
+      alert("Votre commande arrivera d'ici 1 min par drone, vérifiez le ciel.");
+      SupprimerPanier();
+      Panier(element); // Met à jour l'affichage du panier
+      document.dispatchEvent(new CustomEvent("panierChange"));
+      setTimeout(() => {
+        window.location.href =
+          "https://www.youtube.com/watch?v=dQw4w9WgXcQ&autoplay=1";
+      }, 7000); // Redirection après 7 secondes
+    }
+  });
+
   element.querySelectorAll(".ajouterProduit").forEach((bouton, index) => {
     bouton.addEventListener("click", () => {
       const produit = panier[index];
       AjouterPlat(produit);
       Panier(element); // Met à jour l'affichage du panier
+      document.dispatchEvent(new CustomEvent("panierChange"));
     });
   });
+
   element.querySelectorAll(".enleverProduit").forEach((bouton, index) => {
     bouton.addEventListener("click", () => {
       const produit = panier[index];
       EnleverPlat(produit);
       Panier(element); // Met à jour l'affichage du panier
+      document.dispatchEvent(new CustomEvent("panierChange"));
+    });
+  });
+
+  element.querySelectorAll(".supprimerProduit").forEach((bouton, index) => {
+    bouton.addEventListener("click", () => {
+      const produit = panier[index];
+      panier = panier.filter((p) => p.id !== produit.id);
+      localStorage.setItem("panier", JSON.stringify(panier));
+      Panier(element); // Met à jour l'affichage du panier
+      document.dispatchEvent(new CustomEvent("panierChange"));
     });
   });
 };
