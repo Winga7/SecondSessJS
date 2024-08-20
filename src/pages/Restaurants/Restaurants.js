@@ -42,6 +42,7 @@ export const Restaurants = (element) => {
         "nom",
         "description",
         "catégorie",
+        "nomCatégorie",
       ]);
     } else if (mode === "table") {
       DataTable(

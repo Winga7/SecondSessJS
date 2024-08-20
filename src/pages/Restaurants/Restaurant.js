@@ -78,6 +78,7 @@ export const Restaurant = (element) => {
     "nom",
     "description",
     "catégorie",
+    "nomCatégorie",
   ]);
   // let baliseQuantite = document.getElementById("quantite");
   let baliseEnvoyer = document.querySelectorAll(".envoyer");
