@@ -129,7 +129,7 @@ export const Panier = (element) => {
       setTimeout(() => {
         window.location.href =
           "https://www.youtube.com/watch?v=dQw4w9WgXcQ&autoplay=1";
-      }, 7000); // Redirection après 7 secondes
+      }, 3000); // Redirection après 3 secondes
     }
   });
 

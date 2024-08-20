@@ -41,10 +41,14 @@ export const CardsList = (element, items, itemTemplate, searchableFields) => {
   // Générer dynamiquement les cases à cocher pour les catégories
   const categorieFiltre = element.querySelector("#categorieFiltre");
   categories.forEach((categorie) => {
+    // Trouver le nom de la catégorie correspondante
+    const nomCategorie = items.find(
+      (item) => item.catégorie === categorie
+    ).nomCatégorie;
     categorieFiltre.innerHTML += `
-      <div>
-        <input type="checkbox" id="toggle-${categorie}" name="${categorie}" />
-        <label for="toggle-${categorie}">${categorie}</label>
+      <div class="form-check me-2">
+        <input class="form-check-input" type="checkbox" id="toggle-${categorie}" name="${categorie}" />
+        <label class="form-check-label" for="toggle-${categorie}">${nomCategorie}</label>
       </div>
     `;
   });
