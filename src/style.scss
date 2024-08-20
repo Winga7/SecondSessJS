@@ -1,4 +1,5 @@
 @import "bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&family=Roboto&display=swap');
 
 // Root
 .text-bg-burger {
@@ -67,6 +68,7 @@
 body {
 	background-color: rgb(31, 31, 31);
 	color: white;
+	font-family: "Oxygen", sans-serif;
 }
 
 // Navigation
