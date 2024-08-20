@@ -113,6 +113,15 @@ nav {
 	height: 40em !important;
 }
 
+.carousel-control-prev, .carousel-control-next {
+	opacity: 0.7;
+	transition: opacity 0.3s ease;
+}
+
+.carousel-control-prev:hover, .carousel-control-next:hover {
+	opacity: 1;
+}
+
 .carte {
 	text-align: center;
 }
