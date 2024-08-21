@@ -62,6 +62,9 @@
 	color: white;
 	background-color: rgb(73, 190, 122);
 }
+.bg-navbar {
+	background-color: rgb(35, 146, 165) !important;
+}
 
 // Général
 
@@ -74,7 +77,6 @@ body {
 // Navigation
 
 nav {
-	background-color: rgb(31, 31, 31);
 	font-size: 1.2em;
 	z-index: 1000;
 }
